@@ -1,4 +1,2 @@
-A.S.Adventure_local
+A.S.Adventure local environment
 ===================
-
-Local test environment 
