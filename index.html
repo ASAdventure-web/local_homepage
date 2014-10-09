@@ -1,0 +1,884 @@
+<html class=" js flexbox flexboxlegacy canvas canvastext no-touch postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1,user-scalable=no">
+    <meta name="description" content="Outdoormateriaal online bestellen? Ontdek het assortiment voor sport en vrije tijd. Bij A.S.Adventure vind je de grootste merken. Gratis levering vanaf €50!">
+
+    <title>Ontdek ons ruim assortiment aan outdoormateriaal | A.S.Adventure</title>
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="http://static.asadventure.com/includes/site/test/styles/allStyles.css">
+    <link rel="stylesheet" href="http://static.asadventure.com/includes/site/test/styles/allStyles2.css">
+    <link rel="stylesheet" href="http://static.asadventure.com/includes/site/test/styles/allStyles3.css">
+
+    <!-- favicon - icons -->
+    <link rel="icon" type="image/png" href="http//www.asadventure.com/styles/images/icon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/styles/images/homescreenicons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/styles/images/homescreenicons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/styles/images/homescreenicons/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" href="/styles/images/homescreenicons/apple-touch-icon.png">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+	      <script src="/scripts/js/libs/html5shiv.js"></script>
+		  <script src="/scripts/js/libs/respond.js"></script>
+	    <![endif]-->
+</head>
+
+<body cz-shortcut-listen="true">
+    <a id="top" name="top"></a>
+    <header class="header">
+        <div id="header_inner">
+            <div class="topHolderBar">
+                <div class="container">
+                    <div class="panel-menu-toggle">
+                        <a id="simple-menu" class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" href="##">
+                            <div class="expand-icon">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                            <i class="icon-search" title="Zoeken"></i>
+                        </a>
+                    </div>
+                    <div class="span2 header_image">
+                        <div class="headerImageBlock">
+                            <div class="logoHolder">
+
+                                <a class="brand" href="http//www.asadventure.com/benl/index.cfm">
+                                    <img id="poshandy" alt="A.S. Adventure" src="http://static.asadventure.com/includes/site/test/images/logo/logo.png">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span10 header_content row1">
+                        <ul class="language_select">
+                            <li class="active">
+                                <a href="">NL</a>
+                            </li>
+
+                            <li>
+                                <a href="">FR</a>
+                            </li>
+
+                            <li>
+                                <a href="">EN</a>
+                            </li>
+                        </ul>
+
+                        <div id="shopping_cart_links">
+                            <div class="shopping_cart_button nohandy">
+                                <a href="/benl/index.cfm/fuseaction/order.basket">Mijn winkelmandje</a>
+                            </div>
+                            <div id="cartButton" class="shopping_cart_button" rel="/benl/index.cfm/fuseaction/order.basket">
+                                <a href="#">
+                                    <span>0</span>
+                                </a>
+                                <div id="popupBasket" class="popupBasket modal hide" data-backdrop=""></div>
+                            </div>
+                        </div>
+
+                        <div id="profileLinks" class="profileLinks">
+
+                            <a href="#" id="btnLoginProfile" data-toggle="modal" data-target="#popupLogin">Inloggen</a>
+                            <span>of</span>
+                            <a href="#" id="btnRegisterHeader" data-toggle="modal" data-target="#popupRegister">registreer</a>
+
+                            <div class="popupLogin modal hide" id="popupLogin" data-backdrop="">
+                                <div class="inner-popup">
+                                    <img src="http//www.asadventure.com/styles/images/icon/closebtn.png" class="loginClose">
+                                    <form action="#" method="POST" id="frmHeaderLogin" name="frmHeaderLogin" onsubmit="return false;">
+                                        <a id="edtRegister">Ik ben nog niet geregistreerd</a>
+                                        <label for="edtEmail">E-mail:</label>
+                                        <input id="edtEmail" name="edtEmail" type="email" value="" required="" errorbox="error_email">
+                                        <div class="error_email checkout_errorbox">Gelieve je e-mailadres in te vullen.</div>
+                                        <label for="edtPassword">Paswoord:</label>
+                                        <input id="edtPassword" name="edtPassword" type="password" value="" required="" errorbox="error_password">
+                                        <div class="error_password checkout_errorbox">Gelieve je paswoord in te vullen.</div>
+                                        <div class="feedback hide"></div>
+                                        <p class="info">Gelieve het e-mail adres en paswoord van je A.S.Adventure account in te vullen.
+                                            <br>
+                                            <br>Heb je een Explore More kaart? Dan kan je inloggen met je kaartnummer als paswoord (CUS + 8 cijfers)</p>
+                                        <a class="linkPassword" href="#">Paswoord vergeten</a>
+                                    </form>
+
+                                    <div class="hide" id="forgotPassword">
+                                        <form action="" method="POST" name="frmCheckoutForgotPassword" id="frmCheckoutForgotPassword">
+                                            <input id="edtEmailForgot" name="edtEmailForgot" type="email" value="" required="" errorbox="error_forgot_email">
+                                            <div class="error_forgot_email checkout_errorbox">Gelieve je e-mailadres in te vullen.</div>
+                                            <p class="infoForgotPassword">Vul je e-mailadres in, we sturen een nieuw paswoord.</p>
+                                            <a class="btnCheckoutLogin" id="btnCheckoutForgotPassword" href="#">
+                                            Verzenden <i class="icon-angle-right"></i>
+											</a>	
+                                        </form>
+                                    </div>
+                                    <div class="infoForgotPasswordMessage">
+                                        <div class="hide pwsuccess">Een e-mail met uw nieuw paswoord werd net verzonden.</div>
+                                        <div class="hide notfound">Sorry, dit e-mailadres vinden wij niet terug. Gelieve het adres opnieuw in te voeren of te registreren als nieuwe klant.</div>
+                                        <div class="hide pwerror">Er is een fout opgetreden bij het verzenden van je wachtwoord. Onze excuses voor het ongemak.</div>
+                                    </div>
+                                    <input class="edtRemember" id="edtRemember" name="edtRemember" type="checkbox" checked="checked" value="1">
+                                    <label class="lblAfter" for="edtRemember">Bewaar mijn gegevens</label>
+                                    <a id="btnLogin" class="btnLogin">
+                                    	Aanmelden <i class="icon-angle-right"></i>
+                                    </a>
+                                    <img src="/styles/images/icon/loadingsmall.gif" class="hide loading">
+                                </div>
+                            </div>
+
+                            <div class="popupRegister modal hide" id="popupRegister" data-backdrop="">
+                                <img src="/styles/images/icon/closebtn.png" class="registerClose">
+                                <form action="#" method="POST" id="frmHeaderRegister" name="frmHeaderRegister" onsubmit="return false;">
+                                    <a id="edtRegistered">Ik ben reeds geregistreerd</a>
+
+                                    <label for="edtFirstname">Voornaam:</label>
+                                    <input id="edtFirstname" name="edtFirstname" type="text" value="" required="" errorbox="error_firstname">
+                                    <div class="error_firstname checkout_errorbox">Gelieve je voornaam in te vullen.</div>
+
+                                    <label for="edtLastname">Achternaam:</label>
+                                    <input id="edtLastname" name="edtLastname" type="text" value="" required="" errorbox="error_surname">
+                                    <div class="error_surname checkout_errorbox">Gelieve je achternaam in te vullen.</div>
+
+                                    <label for="edtEmail">E-mailadres:</label>
+                                    <input id="edtEmail" name="edtEmail" type="email" value="" required="" errorbox="error_email">
+                                    <div class="error_email_already_exists checkout_errorbox">Dit e-mailadres is reeds in gebruik.</div>
+                                    <div class="error_email checkout_errorbox">Gelieve je e-mailadres in te vullen.</div>
+
+                                    <label for="edtPassword">Paswoord:</label>
+                                    <input id="edtPassword" name="edtPassword" type="password" value="" required="" errorbox="error_password">
+                                    <div class="error_password checkout_errorbox">Gelieve je paswoord in te vullen.</div>
+                                    <div class="feedback hide"></div>
+                                    <a id="btnRegister" class="btnRegister">
+                                    	Registreren <i class="icon-angle-right"></i>
+									</a>
+                                    <img src="/styles/images/icon/loadingsmall.gif" class="hide loading">
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="headerSearch">
+                            <form method="get" action="/benl/index.cfm/fuseaction/products.search" id="searchForm">
+                                <input class="inputText" name="searchvalue" type="text" value="" autocomplete="off">
+                                <i class="icon-search" title="Zoeken"></i>
+                            </form>
+
+                            <div id="suggestDropdown">&nbsp;</div>
+                            <br clear="all">
+                        </div>
+                    </div>
+
+                    <div class="span10 header_content row2">
+                        <div class="topSearchBar">
+                            <div class="fh_navigation">
+                                <div class="customer">
+                                    <div class="customer_service">
+                                        <img class="promo-area-banner" src="http://static.asadventure.com/includes/site/header/img/customer_serivce_close.jpg">
+                                        <div class="menu_customerservice" style="visibility: hidden;">
+                                            <div class="image-map-fh-container">
+                                                <img src="http://static.asadventure.com/includes/banner/_customer-service/flap-out-BENL.jpg">
+                                                <a title="Help" href="/content/nl/help-bestellen" style="top: 0%; left: 0%; width: 100%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav">
+                                    <div class="image-map-fh-container">
+                                        <img src="http://static.asadventure.com/includes/banner/_level-0/140924-L0-BENL.jpg">
+                                        <a title="Explore More" href="/content/nl/explore-more" style="top: 0%; left: 0.600961538462%; width: 14.5432692308%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                        <a title="A.S.Magazine" href="/index.cfm/fuseaction/content.home" style="top: 0%; left: 16.3461538462%; width: 14.1826923077%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                        <a title="Winkels" href="/index.cfm/fuseaction/shops.shops" style="top: 0%; left: 31.3701923077%; width: 8.65384615385%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                        <a title="Lookbook" href="/lookbook" style="top: 0%; left: 41.1057692308%; width: 11.1778846154%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                        <a title="Merken" href="/merken" style="top: 0%; left: 53.6057692308%; width: 7.93269230769%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                        <a title="Onderhoud" href="/content/nl/a-s-adventure-zorgt-voor-je-onderhoud" style="top: 0%; left: 62.8605769231%; width: 12.2596153846%; height: 100%;" class="image-map-link">&nbsp;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="navigationHolderContainer">
+                <div id="navigationHolder">
+                    <div class="container">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <div class="navbar">
+                                    <div class="navbar-inner">
+                                        <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </a>
+                                        <a class="brand" href="/benl/index.cfm" style="display: none;">
+                                            <img alt="logo" src="/styles/images/logo/logo.png" class="visible-desktop">
+                                        </a>
+                                        <a class="menu hidden-desktop "></a>
+                                        <div class="nav-collapse collapse" style="height: 0px;">
+                                            <ul class="nav mainNav">
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="4306" campaign="" flyouttype="F" flyoutwidth="570" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Folder
+														</a>
+
+                                                            <div class="level1-dropdown">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="5" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Dames
+														</a>
+
+                                                            <div class="level1-dropdown">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="2" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Heren
+														</a>
+
+                                                            <div class="level1-dropdown">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="6" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Junior
+														</a>
+
+                                                            <div class="level1-dropdown">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="3736" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Reizen &amp; Camping
+														</a>
+                                                            <div class="level1-dropdown">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="282" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Fietsen &amp; Lopen
+														</a>
+                                                            <div class="level1-dropdown">
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="348" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Badmode
+														</a>
+
+                                                            <div class="level1-dropdown" style="display: none;">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="281" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Ski &amp; Snowboard
+														</a>
+
+                                                            <div class="level1-dropdown">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class=" dropdown">
+                                                    <ul class="nav pull-right">
+                                                        <li class="menu-item" id="3447" campaign="" flyouttype="N" flyoutwidth="300" content="" flyout_position="L" sub="1">
+                                                            <a class="dropdown-toggle mainNavLevel1 last" data-hover="dropdown" data-close-others="false" data-delay="200">
+															Outlet
+														</a>
+
+                                                            <div class="level1-dropdown" style="display: none;">
+
+                                                            </div>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="campaign_menu_bottom">
+            <div class="container">
+                <div class="campaign_image">
+                    <div class="image-map-fh-container">
+                        <img src="http://static.asadventure.com/includes/visuals/usp/usps.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <nav class="breadcrumb">
+                            <div class="inner">
+                                <div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="span4 navigation">
+                    </div>
+                </div>
+
+                <div class="homeFH">
+                    <div class="row">
+
+                        <link href="https://static.asadventure.com/includes/homepage/national/stylesheets/style141008.css" rel="stylesheet">
+                        <link href="https://static.asadventure.com/includes/homepage/national/stylesheets/goprohero.css?v=141001" rel="stylesheet">
+                        <!--<link href="css/style.css" rel="stylesheet" />-->
+                        <div id="xx_wrapper" class="xx_page_home">
+
+                            <div class="span12" id="xx_header">
+                                <div class="xx_slider">
+                                    <div class="bx-wrapper" style="max-width: 100%;">
+                                        <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 410px;">
+                                            <ul class="bxslider" style="width: auto; position: relative; -webkit-transition-duration: 0s; transition-duration: 0s; -webkit-transform: translate3d(0px, -410px, 0px);">
+                                                <li class="wasservice bx-clone" style="float: none; list-style: none; position: relative; width: 1170px;">
+                                                    <a href="/content/nl/onderhoud-waterdichte-outdoorkleding?icn=wasservice&amp;ici=homepage-main-banner4" class="overall-cta"></a>
+                                                    <div class="content">
+                                                        <img src="http://static.asadventure.com/includes/homepage/national/images/icon-wasservice.png" alt="Logo wasservice">
+                                                        <h2 class="main-title">Is jouw wasmachine niet opgewassen tegen vuile outdoorkleding?</h2>
+                                                        <p class="main-content">Geef je materiaal voortaan een professioneel sopje dankzij onze gloednieuwe wasservice.</p>
+                                                        <a href="/content/nl/onderhoud-waterdichte-outdoorkleding?icn=wasservice&amp;ici=homepage-main-banner4" class="xx_cta">Meer info &amp; tarieven</a>
+                                                    </div>
+                                                </li>
+
+                                                <li class="folder-okt" style="float: none; list-style: none; position: relative; width: 1170px;">
+                                                    <a href="/content/nl/welkom-buiten?icn=herfstfolder2014&amp;ici=homepage-main-banner1" class="overall-cta"></a>
+                                                    <div class="content">
+                                                        <h2 class="main-title">
+                                                            <span class="thin">Welkom</span>Buiten</h2>
+                                                        <p class="main-content">Ontdek onze buitengewone
+                                                            <span class="highlight">herfstpromoties</span>
+                                                        </p>
+                                                        <p class="date">Geldig van 8 t.e.m. 26 oktober 2014</p>
+                                                        <div class="button-container">
+                                                            <a href="/content/nl/welkom-buiten?icn=oktoberfolder&amp;ici=homepage-main-banner1" class="xx_cta">Alle folderpromoties</a>
+                                                            <a href="https://issuu.com/a.s.adventure/docs/as_herfstfolder_2014_benl?e=8056282/7915045&amp;icn=bladerherfstfolder2014&amp;ici=homepage-main-banner1" target="_blank" class="xx_cta alt">Blader door de folder</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="goprohero" style="float: none; list-style: none; position: relative; width: 1170px;">
+                                                    <a href="/home/nieuw-bij-gopro?icn=goprohero&amp;ici=homepage-main-banner2" class="overall-cta"></a>
+                                                    <div class="content">
+                                                        <h2 class="main-title">Dit is de nieuwe GoPro!</h2>
+                                                        <ul>
+                                                            <li class="goproitem1 nomobileshow">Video opname in 4K</li>
+                                                            <li class="goproitem2 nomobileshow">Built-in touch display + HiLight Tag (HERO4 SILVER)</li>
+                                                            <li class="goproitem3 nomobileshow">12MP foto's</li>
+                                                            <li class="goproitem4 nomobileshow">Geïntergreerde WiFi en Bluetooth
+                                                                <span>*</span>
+                                                            </li>
+                                                        </ul>
+                                                        <a href="/home/nieuw-bij-gopro?icn=goprohero&amp;ici=homepage-main-banner2" class="xx_cta">Bestel hem hier</a>
+                                                        <p class="gopro-footer nomobileshow">HERO BLACK / HERO SILVER</p>
+                                                        <p class="gopro-legal nomobileshow">* Niet van toepassing op de GoPro HERO</p>
+                                                    </div>
+                                                </li>
+
+
+                                                <li class="skiverhuur" style="float: none; list-style: none; position: relative; width: 1170px;">
+                                                    <a href="/content/nl/skiverhuur?icn=skiverhuur&amp;ici=homepage-main-banner3" class="overall-cta"></a>
+                                                    <div class="content">
+                                                        <h2 class="main-title">Wintersportverhuur</h2>
+                                                        <p class="main-content">Materiaal kopen of niet? Sluit elke twijfel uit en kom eerst huren bij A.S.Adventure.</p>
+                                                        <a href="/content/nl/skiverhuur?icn=skiverhuur&amp;ici=homepage-main-banner3" class="xx_cta">Alle tarieven op een rij</a>
+                                                    </div>
+                                                </li>
+
+                                                <li class="wasservice" style="float: none; list-style: none; position: relative; width: 1170px;">
+                                                    <a href="/content/nl/onderhoud-waterdichte-outdoorkleding?icn=wasservice&amp;ici=homepage-main-banner4" class="overall-cta"></a>
+                                                    <div class="content">
+                                                        <img src="http://static.asadventure.com/includes/homepage/national/images/icon-wasservice.png" alt="Logo wasservice">
+                                                        <h2 class="main-title">Is jouw wasmachine niet opgewassen tegen vuile outdoorkleding?</h2>
+                                                        <p class="main-content">Geef je materiaal voortaan een professioneel sopje dankzij onze gloednieuwe wasservice.</p>
+                                                        <a href="/content/nl/onderhoud-waterdichte-outdoorkleding?icn=wasservice&amp;ici=homepage-main-banner4" class="xx_cta">Meer info &amp; tarieven</a>
+                                                    </div>
+                                                </li>
+
+                                                <li class="folder-okt bx-clone" style="float: none; list-style: none; position: relative; width: 1170px;">
+                                                    <a href="/content/nl/welkom-buiten?icn=herfstfolder2014&amp;ici=homepage-main-banner1" class="overall-cta"></a>
+                                                    <div class="content">
+                                                        <h2 class="main-title">
+                                                            <span class="thin">Welkom</span>Buiten</h2>
+                                                        <p class="main-content">Ontdek onze buitengewone
+                                                            <span class="highlight">herfstpromoties</span>
+                                                        </p>
+                                                        <p class="date">Geldig van 8 t.e.m. 26 oktober 2014</p>
+                                                        <div class="button-container">
+                                                            <a href="/content/nl/welkom-buiten?icn=oktoberfolder&amp;ici=homepage-main-banner1" class="xx_cta">Alle folderpromoties</a>
+                                                            <a href="https://issuu.com/a.s.adventure/docs/as_herfstfolder_2014_benl?e=8056282/7915045&amp;icn=bladerherfstfolder2014&amp;ici=homepage-main-banner1" target="_blank" class="xx_cta alt">Blader door de folder</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="bx-controls bx-has-controls-direction">
+                                            <div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Sidebar TABS -->
+                                    <div id="bx-pager">
+                                        <a data-slide-index="0" href="" class="tab active">
+                                            <div class="tab-content">
+                                                <h2 class="tab-title">Welkom Buiten</h2>
+                                                <p class="tab-intro">Buitengewone herfstpromoties</p>
+                                            </div>
+                                        </a>
+                                        <a data-slide-index="1" href="" class="tab">
+                                            <div class="tab-content">
+                                                <h2 class="tab-title">NIEUW: GoPro HERO</h2>
+                                                <p class="tab-intro">Bestel hem hier</p>
+                                            </div>
+                                        </a>
+                                        <a data-slide-index="2" href="" class="tab">
+                                            <div class="tab-content">
+                                                <h2 class="tab-title">Wintersportverhuur</h2>
+                                                <p class="tab-intro">Huur voordelig je wintersportmateriaal</p>
+                                            </div>
+                                        </a>
+                                        <a data-slide-index="3" href="" class="tab">
+                                            <div class="tab-content">
+                                                <h2 class="tab-title">NIEUW: Wasservice</h2>
+                                                <p class="tab-intro">Meer info &amp; tarieven</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- END Sidebar TABS -->
+
+                                </div>
+                            </div>
+                            <!-- End xx_header -->
+
+
+
+                            <div class="span12" id="xx_content">
+
+                                <div class="clearfix row-fluid xx_row1">
+
+                                    <div class="span4 xx_item_cadeaucheques">
+                                        <p class="xx_info-title">Groene doelen</p>
+
+                                        <div class="xx_img_wrapper">
+                                            <a href="/content/nl/groene-doelen?icn=groene-doelen&amp;ici=homepage-row1-box1">
+                                                <img src="http://static.asadventure.com/includes/homepage/national/images/groene_doelen.jpg" alt="Groene doelen">
+                                            </a>
+                                        </div>
+
+                                        <div class="xx_bottom">
+                                            <h2>Groene doelen</h2>
+
+                                            <p>A.S.Adventure is partner van verschillende organisaties die zich 100% focussen op duurzaam natuurbehoud :
+                                                <strong>Cool Earth</strong>,
+                                                <strong>Natuurpunt</strong>en
+                                                <strong>Natagora</strong>.</p>
+
+                                            <a href="/content/nl/groene-doelen?icn=groene-doelen&amp;ici=homepage-row1-box1" class="xx_cta_button pos_fix">Lees meer over onze aanpak</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="span4 xx_item_merkenoverzicht">
+                                        <p class="xx_info-title">Merkenoverzicht</p>
+
+                                        <div class="xx_img_wrapper">
+                                            <a href="../index.cfm/fuseaction/brands.brands?icn=merkenoverzicht&amp;ici=homepage-row1-box2">
+                                                <img src="http://static.asadventure.com/includes/homepage/national/images/merkenoverzicht.jpg" alt="Merkenoverzicht">
+                                            </a>
+                                        </div>
+
+                                        <div class="xx_bottom">
+                                            <h2>Merken van A tot Z</h2>
+
+                                            <p>Van The North Face tot Jack Wolfskin … A.S.Adventure, da’s
+                                                <strong>meer dan 400 merken</strong>onder één dak.</p>
+
+                                            <a href="../index.cfm/fuseaction/brands.brands?icn=merkenoverzicht&amp;ici=homepage-row1-box2" class="xx_cta_button pos_fix">Spoor je favoriete merk op</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="span4 xx_item_cadeaucheques hide_portrait">
+                                        <p class="xx_info-title">A.S.Adventure cadeaucheque</p>
+
+                                        <div class="xx_img_wrapper">
+                                            <a href="../index.cfm/fuseaction/products.giftvoucher?icn=cadeaucheque&amp;ici=homepage-row1-box3">
+                                                <img src="http://static.asadventure.com/includes/homepage/national/images/cadeaucheques_spring.jpg" alt="Cadeaucheques">
+                                            </a>
+                                        </div>
+
+                                        <div class="xx_bottom">
+                                            <h2>Topgeschenk? Check!</h2>
+
+                                            <p>Moeilijk kiezen of even geen inspiratie? Met onze&nbsp;
+                                                <strong>cadeaucheque</strong>&nbsp;schenk je altijd een werelds cadeau.</p>
+
+                                            <a href="../index.cfm/fuseaction/products.giftvoucher?icn=cadeaucheque&amp;ici=homepage-row1-box3" class="xx_cta_button pos_fix">Kies je bon</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="clearfix row-fluid xx_row2">
+                                    <div class="span3 xx_item_ayacucho">
+                                        <a href="../content/nl/ayacucho?icn=ayacucho&amp;ici=homepage-row2-box1">
+                                            <h2>Ayacucho</h2>
+
+                                            <p>Dit
+                                                <strong>duurzame merk</strong>ligt exclusief in de rekken bij A.S.Adventure.</p>
+
+                                            <span class="xx_cta">Meer info</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="span3 xx_item_jobs">
+                                        <a href="../content/nl/jobs?icn=jobs&amp;ici=homepage-row2-box2">
+                                            <h2>Jobs</h2>
+
+                                            <p>Wie zoekt, die vindt misschien
+                                                <strong>een
+                                                    <br>job bij A.S.Adventure</strong>.</p>
+
+                                            <span class="xx_cta">Alle vacatures</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="span3 xx_item_b2b">
+                                        <a href="../content/nl/b2b?icn=b2b&amp;ici=homepage-row2-box3">
+                                            <h2>B2B</h2>
+
+                                            <p>Onze know-how, passie en
+                                                <strong>professionele aanpak</strong>zijn ook inzetbaar in jouw bedrijf.</p>
+
+                                            <span class="xx_cta">Let's do business</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="span3 xx_item_contact">
+                                        <a href="../index.cfm/fuseaction/customer.contact?icn=contact&amp;ici=homepage-row2-box4">
+                                            <h2>Contact</h2>
+
+                                            <p>
+                                                <strong>Ons bereiken?</strong>Doe je zegje, stel je vraag ...
+                                                <br>Wij staan paraat.</p>
+
+                                            <span class="xx_cta">Shoot!</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="clearfix row-fluid xx_row3">
+                                    <div class="span6 xx_item_explore">
+                                        <p class="xx_info-title">Explore More</p>
+
+                                        <div class="xx_left">&nbsp;</div>
+
+                                        <div class="xx_right">
+                                            <h3>Word Explore More Member</h3>
+                                            <p>Van
+                                                <strong>exclusieve promoties</strong>tot unieke reisvoordelen en hét A.S.Magazine gratis en voor niets. Explore More Members&nbsp;hebben zo hun voordelen...</p>
+
+                                            <a href="../content/nl/explore-more?icn=explore-more&amp;ici=homepage-row3-box2" class="xx_cta">Schrijf je in</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="span6 xx_item_stores">
+                                        <p class="xx_info-title">Storefinder</p>
+
+                                        <div class="xx_left">&nbsp;</div>
+
+                                        <div class="xx_right">
+                                            <h3>Storefinder</h3>
+                                            <p>Meer dan
+                                                <strong>40 winkels</strong>in België, Luxemburg en Frankrijk.</p>
+
+                                            <a href="../index.cfm/fuseaction/shops.shops?icn=storelocator&amp;ici=homepage-row3-box1" class="xx_cta">Vind een store</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="span12" id="xx_footer">
+                                <div class="clearfix row-fluid">
+
+                                    <div class="xx_footer_item xx_1">
+                                        <a href="../content/nl/click-en-collect" class="xx_item1">
+                                            <span>Click &amp; Collect</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="xx_footer_item xx_2">
+                                        <a href="../content/nl/aankoopinformatie-levering#xx_wrapper" class="xx_item2">
+                                            <span>Gratis verzending vanaf €50</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="xx_footer_item xx_3">
+                                        <a href="../content/nl/aankoopinformatie-retours#xx_wrapper" class="xx_item3">
+                                            <span>14 dagen retourrecht</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="xx_footer_item xx_4">
+                                        <span class="xx_item4">
+                                            <span>Exclusieve producten online</span>
+                                        </span>
+                                    </div>
+
+                                    <div class="xx_footer_item xx_5">
+                                        <a href="../content/nl/ecocheques" class="xx_item5">
+                                            <span>Ecocheques? Check!</span>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- HO CODE -->
+                        <script defer="" src="https://static.asadventure.com/includes/homepage/national/js/main-no-auto.js"></script>
+                        <!-- bxSlider Javascript file -->
+                        <script defer="" src="https://static.asadventure.com/includes/homepage/national/js/vendor/bx-slider/jquery.bxslider.min.js"></script>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span12">
+                        <nav class="breadcrumb">
+                            <div class="inner">
+                                <div>
+
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="span4 navigation">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="doormatWrapper" class="content">
+                <div class="container">
+                    <div class="row">
+                        <meta name="format-detection" content="telephone=no">
+                        <link href="https://static.asadventure.com/includes/site/footer/css/asFooterStyles.css" rel="stylesheet" type="text/css">
+                        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+                        <div id="asFooter" class="span12">
+                            <!--ROW 1 LOGO + LINKS / DESKTOP + TABLET-->
+                            <div id="asFooterLinks" class="clearfix">
+                                <div id="asFooterLogoAs">
+                                    <a href="http://www.asadventure.com/benl/index.cfm" title="Home A.S.Adventure">
+                                        <img src="https://static.asadventure.com/includes/site/footer/img/as-footer-logo-as.png" alt="A.S.Adventure">
+                                    </a>
+                                </div>
+                                <div id="asFooterCol1">
+                                    <ul>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/onze-missie" title="Onze missie"><i class="icon-angle-right"></i>Onze Missie</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/index.cfm/fuseaction/content.home" title="A.S.Magazine"><i class="icon-angle-right"></i>A.S.Magazine</a>
+                                        </li>
+                                        <li><a href="http://www.exploremoretravel.be" title="Explore More Travel" target="_blank"><i class="icon-angle-right"></i>Explore More Travel</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/natuurpunt" title="Natuurpunt"><i class="icon-angle-right"></i>Natuurpunt</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/radiospots" title="Radiospots"><i class="icon-angle-right"></i>Radiospots</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="asFooterCol2">
+                                    <ul>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/help-bestellen" title="help"><i class="icon-angle-right"></i>Help</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/aankoopinformatie-stockinformatie" title="Aankoopinformatie"><i class="icon-angle-right"></i>Aankoopinformatie</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/index.cfm/fuseaction/customer.contact"><i class="icon-angle-right"></i>Contacteer ons</a>
+                                        </li>
+                                        <li><a href="javascript:selectCountry();" title="A.S.Adventure Worldwide"><i class="icon-angle-right"></i>A.S.Adventure Worldwide</a>
+                                        </li>
+                                        <li><a href="../../content/nl/maatschappelijk-ondernemen" title="Maatschappelijk ondernemen"><i class="icon-angle-right"></i>Maatschappelijk ondernemen</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="asFooterSocial">
+                                    <p>Volg ons op de voet:</p>
+                                    <div id="asFooterSocialIcons">
+                                        <a href="http://www.youtube.com/user/ASadventure" title="Youtube A.S.Adventure Channel" target="_blank"><i class="fa fa-youtube-square"></i></a>
+
+                                        <a href="https://plus.google.com/+asadventure/posts" title="Google plus A.S.Adventure" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
+                                        <a href="http://www.pinterest.com/asadventurepin/pins/" title="Pinterest A.S.Adventure" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+
+                                        <a href="http://facebook.com/asadventure" title="Facebook A.S.Adventure" target="_blank"><i class="fa fa-facebook-square"></i></a>
+
+                                        <a href="https://twitter.com/as_adventure" title="Twitter A.S.Adventure" target="_blank"><i class="fa fa-twitter-square"></i></a>
+
+                                        <a href="http://www.linkedin.com/company/as-adventure" title="Linkedin A.S.Adventure" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+
+                                        <a href="http://www.asadventure.com/benl/index.cfm/fuseaction/content.home" title="A.S.Magazine"><i class="fa fa-rss-square"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="footerWrapper">
+                        <div class="container">
+                            <div class="row footerline">
+                                <div class="span10">
+                                    <p>
+                                        A.S.Adventure is “the place to be” voor elke globetrotter, natuurliefhebber en actieve vrijetijdsgenieter. Hier vind je alles onder één dak. Of je nu naar de tropen, de Zuidpool, Barcelona of de Belgische Ardennen trekt, bij A.S.Adventure vind je een ruim product-assortiment - op maat van je eigen boeiende levensstijl - en krijg je bovendien professioneel advies van degelijk opgeleide verkoopsmedewerkers.
+                                    </p>
+                                </div>
+                                <div class="span2">
+                                    <p>
+                                        <img alt="Be Commerce" src="http://static.asadventure.com/includes/site/test/images/icon/be_commerce.png">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <meta name="format-detection" content="telephone=no">
+                        <link href="https://static.asadventure.com/includes/site/footer/css/asFooterStyles.css" rel="stylesheet" type="text/css">
+                        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+                        <div id="asFooter" class="span12">
+
+                            <div id="asFooterComInfo" class="clearfix">
+                                <div id="asFooterConditions">
+                                    <ul>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/disclaimer" title="Disclaimer">Disclaimer</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/privacy-policy" title="Privacy Policy">Privacy Policy</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/algemene-voorwaarden" title="Algemene voorwaarden">Algemene voorwaarden</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/index.cfm/fuseaction/content.sitemap" title="Sitemap">Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div id="asFooterConditionsMob">
+                                    <ul id="conditionsLeft">
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/disclaimer" title="Disclaimer">Diclaimer</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/algemene-voorwaarden" title="Algemene voorwaarden">Algemene voorwaarden</a>
+                                        </li>
+                                    </ul>
+                                    <ul id="conditionsRight">
+                                        <li><a href="http://www.asadventure.com/benl/index.cfm/fuseaction/content.sitemap">Sitemap</a>
+                                        </li>
+                                        <li><a href="http://www.asadventure.com/benl/content/nl/privacy-policy" title="Privacy Policy">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div id="asFooterPayment">
+                                    <img src="http://www.asadventure.com/images/ASFooter/img/as-footer-logo-betaling.png" alt="Betaalmogelijkheden">
+                                </div>
+                            </div>
+
+                            <!--ROW 4 ADDRESS-->
+
+                            <div id="asFooterAddress">
+                                <address>A.S.Adventure n.v. | Smallandlaan 9 | B-2660 Hoboken | +32 (0) 3 828 30 15 | BTW BE 0416.762.280</address>
+                            </div>
+
+                            <div id="asFooterAddressMob">
+                                <address>A.S.Adventure n.v. | Smallandlaan 9 | B-2660 Hoboken
+                                    <br>+32 (0) 3 828 30 15 | BTW BE 0416.762.280</address>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <!--end wrapper-->
+</body>
+
+</html>
