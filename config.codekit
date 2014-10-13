@@ -2,453 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17945",
 "files": {
-	"\/footer\/ASFooter-AT-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-AT-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-AT-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-AT-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BEEN-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BEEN-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BEEN-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BEEN-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BEEN.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BEEN.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BEFR-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BEFR-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BEFR-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BEFR-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BENL-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BENL-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-BENL-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-BENL-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-DE-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-DE-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-DE-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-DE-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-DE.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-DE.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-DK-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-DK-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-DK-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-DK-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-FR-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-FR-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-FR-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-FR-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-LU-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-LU-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-LU-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-LU-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-NL-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-NL-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-NL-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-NL-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-UK-1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-UK-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-UK-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-UK-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/ASFooter-UK.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/ASFooter-UK.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/css\/asFooterStyles.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer\/css\/asFooterStyles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/footer\/img\/as-footer-arrow-right.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-arrow-right.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-arrow-right.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-as.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27078,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-as.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-as.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-be-commerce.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7929,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-be-commerce.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-be-commerce.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-DE.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-DE.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-DE.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-FR.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-FR.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-FR.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-LU.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13443,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-LU.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-LU.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-mob-DE.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10217,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-DE.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-DE.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-mob-FR.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9280,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-FR.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-FR.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-mob-LU.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-LU.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-LU.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-mob-NL.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10551,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-NL.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-NL.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-mob-UK.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6419,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-UK.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob-UK.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-mob.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10551,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-mob.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-NL.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-NL.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-NL.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-tab-ls-DE.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-DE.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-DE.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-tab-ls-FR.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13025,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-FR.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-FR.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-tab-ls-LU.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11981,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-LU.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-LU.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-tab-ls-NL.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12890,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-NL.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-NL.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-tab-ls-UK.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7632,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-UK.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls-UK.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-tab-ls.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12890,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-tab-ls.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling-UK.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7852,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-UK.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling-UK.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/footer\/img\/as-footer-logo-betaling.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14436,
-		"inputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling.png",
-		"outputAbbreviatedPath": "\/footer\/img\/as-footer-logo-betaling.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/background\/bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -481,6 +34,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/images\/zero-search-products.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106194,
+		"inputAbbreviatedPath": "\/images\/zero-search-products.jpg",
+		"outputAbbreviatedPath": "\/images\/zero-search-products.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/js\/bootstrap.min.js": {
 		"fileType": 64,
@@ -669,6 +242,18 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/styles\/allStyles.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -696,33 +281,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/css\/pieter-styles.css": {
+	"\/styles\/css\/screens.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/css\/pieter-styles.css",
+		"inputAbbreviatedPath": "\/styles\/css\/screens.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/pieter-styles.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/pieter-styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/styles\/sass\/pieter-styles.scss": {
+	"\/styles\/sass\/screens.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/sass\/pieter-styles.scss",
-		"outputAbbreviatedPath": "\/styles\/css\/pieter-styles.css",
+		"inputAbbreviatedPath": "\/styles\/sass\/screens.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/screens.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -738,8 +314,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "test",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "A.S.Adventure - local",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_yellow"
 	},
 "projectSettings": {
