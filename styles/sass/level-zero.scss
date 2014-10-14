@@ -1,0 +1,158 @@
+@import "breakpoints";
+
+/*====================================
+=            Styles - navigation            =
+====================================*/
+
+/**
+*
+* Pieter De Wachter © 2014
+*
+**/
+
+/** SPECIAL URL EFFECT **/
+
+// Add special style to element
+// add .sepcai-url to html and style css below
+
+#container-level-zero .special-url a{
+	background: #fff; 
+}
+
+/** ------- **/
+
+
+#container-level-zero {
+	width: 100%;
+	height: 30px;
+	background: #fff;
+	margin-right: 0;
+	padding: 0;
+	text-transform: uppercase;
+	@include breakpoint(baby-bear) {
+		display: none;
+	}
+}
+
+
+#container-level-zero ul {
+	height: 30px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-weight: bold;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	@include breakpoint(mama-bear) {
+		font-size: 14px;
+	}
+	@include breakpoint(stiff-mama-bear) {
+		font-size: 11px;
+	}	
+}
+
+#container-level-zero ul li a{
+	opacity: 9;
+	height: 2em;
+	line-height: 2em;
+	float: left;
+	display: block;
+	color: #505050;
+	text-decoration: none;
+	text-align: center;
+	background: #fff;
+	&:hover {
+		color: #505050;
+	}
+	&:visited {
+		color: #505050;
+	}
+	&:active {
+		color: #505050;
+	}
+	&:focus {
+		color: #505050;
+	}
+}
+
+#container-level-zero .nav-link a{
+	padding: 0 10px;
+	@include breakpoint(mama-bear) {
+		padding: 0 5px;
+	}
+	@include breakpoint(stiff-mama-bear) {
+		padding: 0 2px;
+	}
+}
+
+/*=============================================
+=            Section urls           =
+=============================================*/
+
+#container-level-zero .nav-link.url-em {
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#container-level-zero .nav-link.url-as {
+	left: 16%;
+	position: absolute;
+	width: 100%;
+	@include breakpoint(mama-bear) {
+		left: 21%
+	}
+	@include breakpoint(stiff-mama-bear) {
+		left: 24%
+	}
+}
+
+#container-level-zero .nav-link.url-store {
+	left: 31%;
+	position: absolute;
+	width: 100%;
+	@include breakpoint(mama-bear) {
+		left: 40.5%
+	}
+	@include breakpoint(stiff-mama-bear) {
+		left: 46%
+	}
+}
+#container-level-zero .nav-link.url-look {
+	left: 41.5%;
+	position: absolute;
+	width: 100%;
+	@include breakpoint(mama-bear) {
+		left: 54%
+	}
+	@include breakpoint(stiff-mama-bear) {
+		left: 61%
+	}
+
+}
+#container-level-zero .nav-link.url-brand {
+	left: 54%;
+	position: absolute;
+	width: 100%;
+	@include breakpoint(mama-bear) {
+		left: 70%
+	}
+	@include breakpoint(stiff-mama-bear) {
+		left: 79.5%
+	}
+
+}
+#container-level-zero .nav-link.url-extra {
+	left: 64%;
+	position: absolute;
+	width: 100%;
+	@include breakpoint(mama-bear) {
+		left: 84%
+	}
+	@include breakpoint(stiff-mama-bear) {
+		left: 95%
+	}
+}
+
+/*-----  End of Section urls  ------*/

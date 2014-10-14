@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*====================================
+=            Styles - navigation            =
+====================================*/
+/**
+*
+* Pieter De Wachter © 2014
+*
+**/
+/** SPECIAL URL EFFECT **/
+#container-level-zero .special-url a {
+  background: #fff; }
+
+/** ------- **/
+#container-level-zero {
+  width: 100%;
+  height: 30px;
+  background: #fff;
+  margin-right: 0;
+  padding: 0;
+  text-transform: uppercase; }
+  @media only screen and (max-width: 766px) {
+    #container-level-zero {
+      display: none; } }
+
+#container-level-zero ul {
+  height: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero ul {
+      font-size: 14px; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero ul {
+      font-size: 11px; } }
+
+#container-level-zero ul li a {
+  opacity: 9;
+  height: 2em;
+  line-height: 2em;
+  float: left;
+  display: block;
+  color: #505050;
+  text-decoration: none;
+  text-align: center;
+  background: #fff; }
+  #container-level-zero ul li a:hover {
+    color: #505050; }
+  #container-level-zero ul li a:visited {
+    color: #505050; }
+  #container-level-zero ul li a:active {
+    color: #505050; }
+  #container-level-zero ul li a:focus {
+    color: #505050; }
+
+#container-level-zero .nav-link a {
+  padding: 0 10px; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero .nav-link a {
+      padding: 0 5px; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero .nav-link a {
+      padding: 0 2px; } }
+
+/*=============================================
+=            Section urls           =
+=============================================*/
+#container-level-zero .nav-link.url-em {
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+#container-level-zero .nav-link.url-as {
+  left: 16%;
+  position: absolute;
+  width: 100%; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero .nav-link.url-as {
+      left: 21%; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero .nav-link.url-as {
+      left: 24%; } }
+
+#container-level-zero .nav-link.url-store {
+  left: 31%;
+  position: absolute;
+  width: 100%; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero .nav-link.url-store {
+      left: 40.5%; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero .nav-link.url-store {
+      left: 46%; } }
+
+#container-level-zero .nav-link.url-look {
+  left: 41.5%;
+  position: absolute;
+  width: 100%; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero .nav-link.url-look {
+      left: 54%; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero .nav-link.url-look {
+      left: 61%; } }
+
+#container-level-zero .nav-link.url-brand {
+  left: 54%;
+  position: absolute;
+  width: 100%; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero .nav-link.url-brand {
+      left: 70%; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero .nav-link.url-brand {
+      left: 79.5%; } }
+
+#container-level-zero .nav-link.url-extra {
+  left: 64%;
+  position: absolute;
+  width: 100%; }
+  @media only screen and (min-width: 980px) and (max-width: 1199px) {
+    #container-level-zero .nav-link.url-extra {
+      left: 84%; } }
+  @media only screen and (min-width: 767px) and (max-width: 979px) {
+    #container-level-zero .nav-link.url-extra {
+      left: 95%; } }
+
+/*-----  End of Section urls  ------*/

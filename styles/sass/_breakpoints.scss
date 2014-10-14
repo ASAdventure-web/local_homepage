@@ -1,0 +1,18 @@
+@mixin breakpoint($point) {
+	// Desktop
+  @if $point == papa-bear {
+    @media only screen and (min-width: 1200px) { @content; }
+  }
+  	// Tablet - Landscape
+  @else if $point == mama-bear {
+    @media only screen and (min-width: 980px) and (max-width: 1199px) { @content; }
+  }
+  	// Tablet - Portrait
+  @else if $point == stiff-mama-bear {
+    @media only screen and (min-width: 767px) and (max-width: 979px) { @content; }
+  }
+  	// Mobile
+  @else if $point == baby-bear {
+    @media only screen and (max-width: 766px) { @content; }
+  }
+}
