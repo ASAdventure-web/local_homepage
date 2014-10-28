@@ -19,13 +19,6 @@
     <link rel="stylesheet" href="http://static.asadventure.com/includes/site/test/styles/allStyles2.css">
     <link rel="stylesheet" href="http://static.asadventure.com/includes/site/test/styles/allStyles3.css">
 
-    <!-- favicon - icons -->
-    <link rel="icon" type="image/png" href="http//www.asadventure.com/styles/images/icon/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/styles/images/homescreenicons/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/styles/images/homescreenicons/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/styles/images/homescreenicons/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" href="/styles/images/homescreenicons/apple-touch-icon.png">
-
     <!-- usp + fontawesome styles -->
 
     <link rel="stylesheet" href="http://static.asadventure.com/includes/site/usp/styles/css/screen.css?v=1">
@@ -72,11 +65,9 @@
                             <li class="active">
                                 <a href="">NL</a>
                             </li>
-
                             <li>
                                 <a href="">FR</a>
                             </li>
-
                             <li>
                                 <a href="">EN</a>
                             </li>
@@ -99,77 +90,6 @@
                             <a href="#" id="btnLoginProfile" data-toggle="modal" data-target="#popupLogin">Inloggen</a>
                             <span>of</span>
                             <a href="#" id="btnRegisterHeader" data-toggle="modal" data-target="#popupRegister">registreer</a>
-
-                            <div class="popupLogin modal hide" id="popupLogin" data-backdrop="">
-                                <div class="inner-popup">
-                                    <img src="http//www.asadventure.com/styles/images/icon/closebtn.png" class="loginClose">
-                                    <form action="#" method="POST" id="frmHeaderLogin" name="frmHeaderLogin" onsubmit="return false;">
-                                        <a id="edtRegister">Ik ben nog niet geregistreerd</a>
-                                        <label for="edtEmail">E-mail:</label>
-                                        <input id="edtEmail" name="edtEmail" type="email" value="" required="" errorbox="error_email">
-                                        <div class="error_email checkout_errorbox">Gelieve je e-mailadres in te vullen.</div>
-                                        <label for="edtPassword">Paswoord:</label>
-                                        <input id="edtPassword" name="edtPassword" type="password" value="" required="" errorbox="error_password">
-                                        <div class="error_password checkout_errorbox">Gelieve je paswoord in te vullen.</div>
-                                        <div class="feedback hide"></div>
-                                        <p class="info">Gelieve het e-mail adres en paswoord van je A.S.Adventure account in te vullen.
-                                            <br>
-                                            <br>Heb je een Explore More kaart? Dan kan je inloggen met je kaartnummer als paswoord (CUS + 8 cijfers)</p>
-                                        <a class="linkPassword" href="#">Paswoord vergeten</a>
-                                    </form>
-
-                                    <div class="hide" id="forgotPassword">
-                                        <form action="" method="POST" name="frmCheckoutForgotPassword" id="frmCheckoutForgotPassword">
-                                            <input id="edtEmailForgot" name="edtEmailForgot" type="email" value="" required="" errorbox="error_forgot_email">
-                                            <div class="error_forgot_email checkout_errorbox">Gelieve je e-mailadres in te vullen.</div>
-                                            <p class="infoForgotPassword">Vul je e-mailadres in, we sturen een nieuw paswoord.</p>
-                                            <a class="btnCheckoutLogin" id="btnCheckoutForgotPassword" href="#">
-                                            Verzenden <i class="icon-angle-right"></i>
-											</a>	
-                                        </form>
-                                    </div>
-                                    <div class="infoForgotPasswordMessage">
-                                        <div class="hide pwsuccess">Een e-mail met uw nieuw paswoord werd net verzonden.</div>
-                                        <div class="hide notfound">Sorry, dit e-mailadres vinden wij niet terug. Gelieve het adres opnieuw in te voeren of te registreren als nieuwe klant.</div>
-                                        <div class="hide pwerror">Er is een fout opgetreden bij het verzenden van je wachtwoord. Onze excuses voor het ongemak.</div>
-                                    </div>
-                                    <input class="edtRemember" id="edtRemember" name="edtRemember" type="checkbox" checked="checked" value="1">
-                                    <label class="lblAfter" for="edtRemember">Bewaar mijn gegevens</label>
-                                    <a id="btnLogin" class="btnLogin">
-                                    	Aanmelden <i class="icon-angle-right"></i>
-                                    </a>
-                                    <img src="/styles/images/icon/loadingsmall.gif" class="hide loading">
-                                </div>
-                            </div>
-
-                            <div class="popupRegister modal hide" id="popupRegister" data-backdrop="">
-                                <img src="/styles/images/icon/closebtn.png" class="registerClose">
-                                <form action="#" method="POST" id="frmHeaderRegister" name="frmHeaderRegister" onsubmit="return false;">
-                                    <a id="edtRegistered">Ik ben reeds geregistreerd</a>
-
-                                    <label for="edtFirstname">Voornaam:</label>
-                                    <input id="edtFirstname" name="edtFirstname" type="text" value="" required="" errorbox="error_firstname">
-                                    <div class="error_firstname checkout_errorbox">Gelieve je voornaam in te vullen.</div>
-
-                                    <label for="edtLastname">Achternaam:</label>
-                                    <input id="edtLastname" name="edtLastname" type="text" value="" required="" errorbox="error_surname">
-                                    <div class="error_surname checkout_errorbox">Gelieve je achternaam in te vullen.</div>
-
-                                    <label for="edtEmail">E-mailadres:</label>
-                                    <input id="edtEmail" name="edtEmail" type="email" value="" required="" errorbox="error_email">
-                                    <div class="error_email_already_exists checkout_errorbox">Dit e-mailadres is reeds in gebruik.</div>
-                                    <div class="error_email checkout_errorbox">Gelieve je e-mailadres in te vullen.</div>
-
-                                    <label for="edtPassword">Paswoord:</label>
-                                    <input id="edtPassword" name="edtPassword" type="password" value="" required="" errorbox="error_password">
-                                    <div class="error_password checkout_errorbox">Gelieve je paswoord in te vullen.</div>
-                                    <div class="feedback hide"></div>
-                                    <a id="btnRegister" class="btnRegister">
-                                    	Registreren <i class="icon-angle-right"></i>
-									</a>
-                                    <img src="/styles/images/icon/loadingsmall.gif" class="hide loading">
-                                </form>
-                            </div>
                         </div>
 
                         <div id="headerSearch">
@@ -738,9 +658,9 @@
 
                         </div>
                         <!-- HO CODE -->
-                        <script defer="" src="https://static.asadventure.com/includes/homepage/national/js/main-no-auto.js"></script>
+                        <script defer="" src="http://static.asadventure.com/includes/homepage/national/js/main-no-auto.js"></script>
                         <!-- bxSlider Javascript file -->
-                        <script defer="" src="https://static.asadventure.com/includes/homepage/national/js/vendor/bx-slider/jquery.bxslider.min.js"></script>
+                        <script defer="" src="http://static.asadventure.com/includes/homepage/national/js/vendor/bx-slider/jquery.bxslider.min.js"></script>
                     </div>
                 </div>
 
@@ -758,8 +678,10 @@
 
                     </div>
                 </div>
+
             </div>
         </div>
+
         <footer>
             <div id="doormatWrapper" class="content">
                 <div class="container">
@@ -901,10 +823,8 @@
 
                 </div>
             </div>
-
         </footer>
     </div>
     <!--end wrapper-->
 </body>
-
 </html>
