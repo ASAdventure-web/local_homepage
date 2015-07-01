@@ -1,0 +1,517 @@
+ /* =====================
+ 	 Variables 
+ ======================*/
+
+$fontstack1: "Open Sans", Helvetica-Neue,​ Arial,​ sans-serif !important;
+$cta-color: #7b7a58;
+
+
+ /* =====================
+ 	 Mixins 
+ ======================*/
+
+//add preserve-3d to parent element
+%vertical-align {
+  position: relative;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+%position-absolute {
+	position: absolute;
+  bottom: -31%;
+  left: 0;
+  right: 0;
+  width: 117px;
+  margin: 0 auto;
+}
+
+
+ /* =====================
+ 	 Main styles 
+ ======================*/
+
+// Bootstrap fix
+.span12 {
+	margin-left: 15px;
+
+	@include tablet-landscape{
+		margin-left: 10px;
+	}
+	@include tablet-portrait{
+		margin-left: 10px;
+	}
+}
+
+//for use with rem units
+html {
+	font-size: 100%;
+
+	@include tablet-landscape{
+		font-size: 80%;
+	}
+	@include tablet-portrait{
+		font-size: 62%;
+	}
+	@include mobile{
+		font-size: 80%;
+	}
+}
+
+#homepage-wrapper div {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p, a, span, button {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#homepage-wrapper h1,
+#homepage-wrapper h2,
+#homepage-wrapper a, 
+#homepage-wrapper button, 
+#homepage-wrapper p, 
+#homepage-wrapper span {
+	font-family: $fontstack1;
+}
+
+strong {
+	font-weight: 600;
+}
+
+img {
+	max-width: 100%;
+}
+
+//remove tap highlight on ios
+a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+//
+a:link,
+a:visited,
+a:active,
+a:hover {
+	text-decoration: none;
+}
+
+.cta {
+	position: relative;
+  	display: inline-block;
+	font-size: 0.813rem; // 13px
+	font-weight: 600;
+
+	background: #fff;
+	color: #434343;
+	text-align: center;
+	padding: 6px 25px;
+
+	@include transition(all 0.15s ease-in-out);
+
+
+	&:hover, :active {
+		background-color: #fff;
+		color: #434343;
+	}
+
+	@include tablet-landscape{
+		padding: 3px 20px;
+	}
+	@include tablet-portrait{
+		padding: 1px 15px;
+	}
+
+	&.fixed-width {
+		width: 60px;
+
+		@include tablet-landscape{
+			width: 45px;
+		}
+		@include tablet-portrait{
+			width: 35px;
+		}
+	}
+}
+
+.cta.color { 
+	color: #ffffff;
+	background-color: $cta-color;
+
+	&:hover {
+		background-color: darken($cta-color, 7%);
+	}
+}
+
+button.cta {
+	border: 0;
+	outline: 0;
+	// -webkit-border-radius:0px;
+	// -webkit-appearance: none;
+ //   -moz-appearance: none;
+ //   appearance: none; 
+}
+
+
+ /* =====================
+ 	 Specific styles 
+ ======================*/
+
+//photo block
+ .photo-block {
+ 	display: block;
+
+ 	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+  position: relative;
+  text-align: center;
+
+  img {
+  	position: absolute;
+  	left: 0;
+  	top: 0;
+  	z-index: 1;
+  }
+ }
+
+ .photo-block .copy {
+ 	@extend %vertical-align;
+ 	z-index: 5;
+
+ 	padding: 0 5%;
+
+ 	color: #fff;
+
+ 	.item-title {
+ 		color: inherit;
+ 		font-size: 1.81rem; // 29px
+ 		text-transform: uppercase;
+ 		line-height: 1.24137931;
+ 		margin-bottom: 20px;
+ 		font-weight: 400;
+
+ 		@include tablet-landscape {
+ 			margin-bottom: 10px;
+ 		}
+ 	}
+
+ 	.item-intro {
+ 		color: inherit;
+ 		font-size: 1rem;
+ 		line-height: 130%;
+ 		margin-bottom: 20px;
+ 		margin-top: -10px;
+
+ 		@include tablet-landscape {
+ 			margin-bottom: 10px;
+ 		}
+ 	}
+ }
+
+ .photo-block .copy.extra-pad {
+	padding: 0 15%;
+}
+	//full block hover (empty div in html)
+	.photo-block .black-hover {
+	 	position: absolute;
+	 	left: 0;
+	 	top: 0;
+	 	width: 100%;
+	 	height: 100%;
+	 	background-color: rgba(0, 0, 0, 0);
+	  	z-index: 3;
+
+	  	@include transition(background-color 0.25s ease-in-out);
+	 }
+
+	 .photo-block:hover .black-hover {
+	 	background-color: rgba(0, 0, 0, 0.3);
+	 }
+
+
+	 //iframe video styles
+	.photo-block .iframe-wrapper {
+	    // width: 777px;
+	    height: 100%;
+	    background: #000;
+	}
+
+	.photo-block .iframe-wrapper img {
+	    cursor: pointer;
+	    max-width: 100%;
+	    height: 100%;
+	}
+
+	.photo-block .iframe-wrapper iframe {
+	    min-height: 0;
+	    border: 0;
+	}
+
+//content block
+.content-block {
+	position: relative;
+	background-color: #fff;
+
+	img {
+		position: relative;
+  		z-index: 1;
+	}
+
+	.copy {
+		position: relative;
+		background-color: #fff;
+		color: #313131;
+		padding: 2.75% 5% 0;
+
+		@include tablet-portrait {
+			padding-top: 0.2%;
+		}
+
+		display: inline-block;
+		text-align: center;
+
+		&:after {
+			bottom: 100%;
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			z-index: 10;
+			pointer-events: none;
+			
+			border-width: 15px;
+			margin-left: -15px;
+			border-bottom-color: #fff;
+
+			@include tablet-portrait {
+				border-width: 10px;
+  				margin-left: -10px;
+			}
+		}
+
+		.item-title {
+			color: #343434;
+			font-weight: bold;
+			font-family: $fontstack1;
+			font-size: 1.23rem; // 20px
+			line-height: 130%;
+			margin-bottom: 2%;
+		}
+
+		.item-intro {
+			font-weight: 400;
+			font-family: $fontstack1;
+			color: #868686;
+			font-size: 0.84rem; // 14px
+			line-height: 140%;
+			margin-bottom: 5.5%;
+
+		}
+
+	}
+
+	//LUX stores styles
+	.copy.lux {
+		width: 100%;
+		text-align: left;
+
+		.adres {
+			font-weight: 400;
+			font-family: $fontstack1;
+			color: #868686;
+			font-size: 0.84rem; // 14px
+			line-height: 140%;
+			margin-bottom: 5.5%;
+		}
+
+		.item-subtitle {
+			color: #868686;
+			font-weight: bold !important;
+			font-family: $fontstack1;
+			font-size: 0.84rem; // 14px
+			line-height: 130%;
+			margin-bottom: 2%;
+		}
+	}
+}
+
+.content-block .image-top {
+	width: 100%;
+	height: auto;
+	min-height: 0;
+}
+.content-block .image-side {
+	width: auto;
+
+	@include tablet-landscape{
+		width: 150px;
+	}
+	@include tablet-portrait{
+		width: 111px;
+	}
+}
+
+.content-block .copy.side {
+	text-align: left;
+	width: 67%;
+	padding: 5% 3% 0 4.5%;
+
+	@include tablet-portrait {
+		padding-top: 4%;
+	}
+
+	&:after {
+		border-color: rgba(255, 255, 255, 0);
+		border-right-color: #ffffff;
+		z-index: 1;
+		left: -15px;
+		bottom: 27.5%;
+
+		@include tablet-portrait {
+			left: -10px;
+		}
+	}
+}
+
+
+//icon row
+.icon-row {
+	position: relative;
+	background-color: #fff;
+	padding-top: 20px;
+
+	img {
+		position: relative;
+  		z-index: 1;
+	}
+
+	.icon-row-item {
+		 width: 20%;
+		 float: left;
+		 /* font */
+		 text-align: center;
+	}
+
+	@include tablet-landscape{
+		height: 100px;
+	}
+	@include tablet-portrait{
+		height: 100px;
+	}
+
+}
+
+.icon-row .icon-row-item > span.item1,
+.icon-row .icon-row-item a.item1 {
+  background-image: url('../images/icon_click_collect.png');
+}
+.icon-row .icon-row-item > span.item2,
+.icon-row .icon-row-item a.item2 {
+  background-image: url('../images/icon_truck.png');
+ }
+.icon-row .icon-row-item > span.item3,
+.icon-row .icon-row-item a.item3 {
+  background-image: url('../images/icon_calendar.png');
+ }
+.icon-row .icon-row-item > span.item4,
+.icon-row .icon-row-item a.item4 {
+  background-image: url('../images/icon_karreke.png');
+ }
+.icon-row .icon-row-item > span.item5,
+.icon-row .icon-row-item a.item5 {
+  background-image: url('../images/icon_eco.png');
+ }
+
+.icon-row .icon-row-item > span,
+.icon-row .icon-row-item a {
+  height: 20px;
+  padding-top: 45px;
+  display: block;
+
+  color: #afafaf;
+  font-size: 0.75rem;
+
+  	@include tablet-landscape{
+		font-size: 0.8rem;
+	}
+	@include tablet-portrait{
+		font-size: 1rem;
+	}
+
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  opacity: 0.7;
+
+  @include transition(opacity 0.15s ease-in-out);
+}
+
+.icon-row .icon-row-item > span.item1:hover,
+.icon-row .icon-row-item a.item1:hover,
+.icon-row .icon-row-item > span.item2:hover,
+.icon-row .icon-row-item a.item2:hover,
+.icon-row .icon-row-item > span.item3:hover,
+.icon-row .icon-row-item a.item3:hover,
+.icon-row .icon-row-item > span.item4:hover,
+.icon-row .icon-row-item a.item4:hover,
+.icon-row .icon-row-item > span.item5:hover,
+.icon-row .icon-row-item a.item5:hover {
+  opacity: 1;
+}
+.icon-row .icon-row-item > span:hover,
+.icon-row .icon-row-item a:hover {
+  color: $cta-color;
+}
+
+
+ /* ==============================
+ 	Lazy Load XT fade-in effect 
+ ===============================*/
+/*! Lazy Load XT v1.0.6 2014-11-19
+ * http://ressio.github.io/lazy-load-xt
+ * (C) 2014 RESS.io
+ * Licensed under MIT */
+.lazy-hidden {
+    opacity: 0;
+}
+.lazy-loaded {
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+
+ /* =====================
+ 	IE8 fix styles 
+ ======================*/
+// IE8 fix 
+@media \0screen {
+	.photo-block .copy {
+		top: 20%;
+	}
+
+	.content-block .copy {
+		.item-title {
+			font-size: 20px; // 20px
+		}
+		.item-intro {
+			font-size: 13px; // 14px
+		}
+	}
+
+	.content-block .copy.side:after {
+		display: none;
+	}
+
+} 
+
+
+
+

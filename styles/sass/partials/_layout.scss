@@ -1,0 +1,99 @@
+//GRID
+%grid-item{
+	float: left;
+	margin-top: $gutter-width;
+	overflow: hidden;
+	& + %grid-item{
+		margin-left: $desktop-gutter-width-perc;
+		@include tablet-landscape{
+			margin-left: $tablet-landscape-gutter-width-perc;
+		}
+		@include tablet-portrait{
+			margin-left: $tablet-portrait-gutter-width-perc;
+		}
+		@include mobile{
+			margin-left: $mobile-gutter-width-perc;
+		}
+	}
+	&::after{
+		clear: both;
+		content: "";
+		display: table;
+	}
+	// HELPER CLASSES
+	&.left{
+		float: left;
+		margin-left: 0;
+	}
+	&.right{
+		float: right;
+	}
+	img{
+		float: left;
+		height: auto;
+		max-width: 100%;
+		min-height: 100%;
+		width: 100%;
+	}
+}
+
+// SETTING COLUMN WIDTH
+@for $i from 1 through $num-cols{
+	.col-#{$i}{
+		$g: $i - 1;
+		width: ($desktop-col-width * $i) + ($desktop-gutter-width-perc * $g);
+		@include tablet-landscape{
+			width: ($tablet-landscape-col-width * $i) + ($tablet-landscape-gutter-width-perc * $g);
+		}
+		@include tablet-portrait{
+			width: ($tablet-portrait-col-width * $i) + ($tablet-portrait-gutter-width-perc * $g);
+		}
+		@include mobile{
+			width: ($mobile-col-width * $i) + ($mobile-gutter-width-perc * $g);
+		}
+		@extend %grid-item;
+	}
+}
+
+// SETTING ROW HEIGHT
+@for $i from 1 through $max-rows{
+	.row-#{$i}{
+		$g: $i - 1;
+		height: ($desktop-row-height * $i) + ($gutter-width * $g);
+		@include tablet-landscape{
+			height: ($tablet-landscape-row-height * $i) + ($gutter-width * $g);
+		}
+		@include tablet-portrait{
+			height: ($tablet-portrait-row-height * $i) + ($gutter-width * $g);
+		}
+		@include mobile{
+			height: auto;
+		}
+	}
+}
+
+// WRAPPER
+#homepage-wrapper{
+	margin: 0 auto;
+	max-width: $desktop-max-width;
+	padding: $gutter-width 0;
+	width: 100%;
+	@include tablet-landscape{
+		max-width: $tablet-landscape-max-width;
+	}
+	@include tablet-portrait{
+		max-width: $tablet-portrait-max-width;
+	}
+	@include mobile{
+		max-width: 100%;
+	}
+}
+
+// CONTENT-ROW
+.content-row{
+	&::after{
+		clear: both;
+		content: "";
+		display: table;
+	}
+}

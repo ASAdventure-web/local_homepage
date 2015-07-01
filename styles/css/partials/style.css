@@ -1,0 +1,1826 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* *********************************************************************************************************** */
+/* **                                                 IMPORTS                                               ** */
+/* *********************************************************************************************************** */
+/* *********************************************************************************************************** */
+/* **                                                 FONTS                                                 ** */
+/* *********************************************************************************************************** */
+/* ===============
+   MAIN STYLES
+=============== */
+html, body {
+  margin: 0;
+  width: 100%; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  margin-top: 8px;
+  overflow: hidden; }
+  .col-1 + .col-1, .col-2 + .col-1, .col-3 + .col-1, .col-4 + .col-1, .col-5 + .col-1, .col-6 + .col-1, .col-7 + .col-1, .col-8 + .col-1, .col-9 + .col-1, .col-10 + .col-1, .col-11 + .col-1, .col-12 + .col-1, .col-1 + .col-2, .col-2 + .col-2, .col-3 + .col-2, .col-4 + .col-2, .col-5 + .col-2, .col-6 + .col-2, .col-7 + .col-2, .col-8 + .col-2, .col-9 + .col-2, .col-10 + .col-2, .col-11 + .col-2, .col-12 + .col-2, .col-1 + .col-3, .col-2 + .col-3, .col-3 + .col-3, .col-4 + .col-3, .col-5 + .col-3, .col-6 + .col-3, .col-7 + .col-3, .col-8 + .col-3, .col-9 + .col-3, .col-10 + .col-3, .col-11 + .col-3, .col-12 + .col-3, .col-1 + .col-4, .col-2 + .col-4, .col-3 + .col-4, .col-4 + .col-4, .col-5 + .col-4, .col-6 + .col-4, .col-7 + .col-4, .col-8 + .col-4, .col-9 + .col-4, .col-10 + .col-4, .col-11 + .col-4, .col-12 + .col-4, .col-1 + .col-5, .col-2 + .col-5, .col-3 + .col-5, .col-4 + .col-5, .col-5 + .col-5, .col-6 + .col-5, .col-7 + .col-5, .col-8 + .col-5, .col-9 + .col-5, .col-10 + .col-5, .col-11 + .col-5, .col-12 + .col-5, .col-1 + .col-6, .col-2 + .col-6, .col-3 + .col-6, .col-4 + .col-6, .col-5 + .col-6, .col-6 + .col-6, .col-7 + .col-6, .col-8 + .col-6, .col-9 + .col-6, .col-10 + .col-6, .col-11 + .col-6, .col-12 + .col-6, .col-1 + .col-7, .col-2 + .col-7, .col-3 + .col-7, .col-4 + .col-7, .col-5 + .col-7, .col-6 + .col-7, .col-7 + .col-7, .col-8 + .col-7, .col-9 + .col-7, .col-10 + .col-7, .col-11 + .col-7, .col-12 + .col-7, .col-1 + .col-8, .col-2 + .col-8, .col-3 + .col-8, .col-4 + .col-8, .col-5 + .col-8, .col-6 + .col-8, .col-7 + .col-8, .col-8 + .col-8, .col-9 + .col-8, .col-10 + .col-8, .col-11 + .col-8, .col-12 + .col-8, .col-1 + .col-9, .col-2 + .col-9, .col-3 + .col-9, .col-4 + .col-9, .col-5 + .col-9, .col-6 + .col-9, .col-7 + .col-9, .col-8 + .col-9, .col-9 + .col-9, .col-10 + .col-9, .col-11 + .col-9, .col-12 + .col-9, .col-1 + .col-10, .col-2 + .col-10, .col-3 + .col-10, .col-4 + .col-10, .col-5 + .col-10, .col-6 + .col-10, .col-7 + .col-10, .col-8 + .col-10, .col-9 + .col-10, .col-10 + .col-10, .col-11 + .col-10, .col-12 + .col-10, .col-1 + .col-11, .col-2 + .col-11, .col-3 + .col-11, .col-4 + .col-11, .col-5 + .col-11, .col-6 + .col-11, .col-7 + .col-11, .col-8 + .col-11, .col-9 + .col-11, .col-10 + .col-11, .col-11 + .col-11, .col-12 + .col-11, .col-1 + .col-12, .col-2 + .col-12, .col-3 + .col-12, .col-4 + .col-12, .col-5 + .col-12, .col-6 + .col-12, .col-7 + .col-12, .col-8 + .col-12, .col-9 + .col-12, .col-10 + .col-12, .col-11 + .col-12, .col-12 + .col-12 {
+    margin-left: 0.68376%; }
+    @media only screen and (max-width: 1199px) {
+      .col-1 + .col-1, .col-2 + .col-1, .col-3 + .col-1, .col-4 + .col-1, .col-5 + .col-1, .col-6 + .col-1, .col-7 + .col-1, .col-8 + .col-1, .col-9 + .col-1, .col-10 + .col-1, .col-11 + .col-1, .col-12 + .col-1, .col-1 + .col-2, .col-2 + .col-2, .col-3 + .col-2, .col-4 + .col-2, .col-5 + .col-2, .col-6 + .col-2, .col-7 + .col-2, .col-8 + .col-2, .col-9 + .col-2, .col-10 + .col-2, .col-11 + .col-2, .col-12 + .col-2, .col-1 + .col-3, .col-2 + .col-3, .col-3 + .col-3, .col-4 + .col-3, .col-5 + .col-3, .col-6 + .col-3, .col-7 + .col-3, .col-8 + .col-3, .col-9 + .col-3, .col-10 + .col-3, .col-11 + .col-3, .col-12 + .col-3, .col-1 + .col-4, .col-2 + .col-4, .col-3 + .col-4, .col-4 + .col-4, .col-5 + .col-4, .col-6 + .col-4, .col-7 + .col-4, .col-8 + .col-4, .col-9 + .col-4, .col-10 + .col-4, .col-11 + .col-4, .col-12 + .col-4, .col-1 + .col-5, .col-2 + .col-5, .col-3 + .col-5, .col-4 + .col-5, .col-5 + .col-5, .col-6 + .col-5, .col-7 + .col-5, .col-8 + .col-5, .col-9 + .col-5, .col-10 + .col-5, .col-11 + .col-5, .col-12 + .col-5, .col-1 + .col-6, .col-2 + .col-6, .col-3 + .col-6, .col-4 + .col-6, .col-5 + .col-6, .col-6 + .col-6, .col-7 + .col-6, .col-8 + .col-6, .col-9 + .col-6, .col-10 + .col-6, .col-11 + .col-6, .col-12 + .col-6, .col-1 + .col-7, .col-2 + .col-7, .col-3 + .col-7, .col-4 + .col-7, .col-5 + .col-7, .col-6 + .col-7, .col-7 + .col-7, .col-8 + .col-7, .col-9 + .col-7, .col-10 + .col-7, .col-11 + .col-7, .col-12 + .col-7, .col-1 + .col-8, .col-2 + .col-8, .col-3 + .col-8, .col-4 + .col-8, .col-5 + .col-8, .col-6 + .col-8, .col-7 + .col-8, .col-8 + .col-8, .col-9 + .col-8, .col-10 + .col-8, .col-11 + .col-8, .col-12 + .col-8, .col-1 + .col-9, .col-2 + .col-9, .col-3 + .col-9, .col-4 + .col-9, .col-5 + .col-9, .col-6 + .col-9, .col-7 + .col-9, .col-8 + .col-9, .col-9 + .col-9, .col-10 + .col-9, .col-11 + .col-9, .col-12 + .col-9, .col-1 + .col-10, .col-2 + .col-10, .col-3 + .col-10, .col-4 + .col-10, .col-5 + .col-10, .col-6 + .col-10, .col-7 + .col-10, .col-8 + .col-10, .col-9 + .col-10, .col-10 + .col-10, .col-11 + .col-10, .col-12 + .col-10, .col-1 + .col-11, .col-2 + .col-11, .col-3 + .col-11, .col-4 + .col-11, .col-5 + .col-11, .col-6 + .col-11, .col-7 + .col-11, .col-8 + .col-11, .col-9 + .col-11, .col-10 + .col-11, .col-11 + .col-11, .col-12 + .col-11, .col-1 + .col-12, .col-2 + .col-12, .col-3 + .col-12, .col-4 + .col-12, .col-5 + .col-12, .col-6 + .col-12, .col-7 + .col-12, .col-8 + .col-12, .col-9 + .col-12, .col-10 + .col-12, .col-11 + .col-12, .col-12 + .col-12 {
+        margin-left: 0.85106%; } }
+    @media only screen and (max-width: 979px) {
+      .col-1 + .col-1, .col-2 + .col-1, .col-3 + .col-1, .col-4 + .col-1, .col-5 + .col-1, .col-6 + .col-1, .col-7 + .col-1, .col-8 + .col-1, .col-9 + .col-1, .col-10 + .col-1, .col-11 + .col-1, .col-12 + .col-1, .col-1 + .col-2, .col-2 + .col-2, .col-3 + .col-2, .col-4 + .col-2, .col-5 + .col-2, .col-6 + .col-2, .col-7 + .col-2, .col-8 + .col-2, .col-9 + .col-2, .col-10 + .col-2, .col-11 + .col-2, .col-12 + .col-2, .col-1 + .col-3, .col-2 + .col-3, .col-3 + .col-3, .col-4 + .col-3, .col-5 + .col-3, .col-6 + .col-3, .col-7 + .col-3, .col-8 + .col-3, .col-9 + .col-3, .col-10 + .col-3, .col-11 + .col-3, .col-12 + .col-3, .col-1 + .col-4, .col-2 + .col-4, .col-3 + .col-4, .col-4 + .col-4, .col-5 + .col-4, .col-6 + .col-4, .col-7 + .col-4, .col-8 + .col-4, .col-9 + .col-4, .col-10 + .col-4, .col-11 + .col-4, .col-12 + .col-4, .col-1 + .col-5, .col-2 + .col-5, .col-3 + .col-5, .col-4 + .col-5, .col-5 + .col-5, .col-6 + .col-5, .col-7 + .col-5, .col-8 + .col-5, .col-9 + .col-5, .col-10 + .col-5, .col-11 + .col-5, .col-12 + .col-5, .col-1 + .col-6, .col-2 + .col-6, .col-3 + .col-6, .col-4 + .col-6, .col-5 + .col-6, .col-6 + .col-6, .col-7 + .col-6, .col-8 + .col-6, .col-9 + .col-6, .col-10 + .col-6, .col-11 + .col-6, .col-12 + .col-6, .col-1 + .col-7, .col-2 + .col-7, .col-3 + .col-7, .col-4 + .col-7, .col-5 + .col-7, .col-6 + .col-7, .col-7 + .col-7, .col-8 + .col-7, .col-9 + .col-7, .col-10 + .col-7, .col-11 + .col-7, .col-12 + .col-7, .col-1 + .col-8, .col-2 + .col-8, .col-3 + .col-8, .col-4 + .col-8, .col-5 + .col-8, .col-6 + .col-8, .col-7 + .col-8, .col-8 + .col-8, .col-9 + .col-8, .col-10 + .col-8, .col-11 + .col-8, .col-12 + .col-8, .col-1 + .col-9, .col-2 + .col-9, .col-3 + .col-9, .col-4 + .col-9, .col-5 + .col-9, .col-6 + .col-9, .col-7 + .col-9, .col-8 + .col-9, .col-9 + .col-9, .col-10 + .col-9, .col-11 + .col-9, .col-12 + .col-9, .col-1 + .col-10, .col-2 + .col-10, .col-3 + .col-10, .col-4 + .col-10, .col-5 + .col-10, .col-6 + .col-10, .col-7 + .col-10, .col-8 + .col-10, .col-9 + .col-10, .col-10 + .col-10, .col-11 + .col-10, .col-12 + .col-10, .col-1 + .col-11, .col-2 + .col-11, .col-3 + .col-11, .col-4 + .col-11, .col-5 + .col-11, .col-6 + .col-11, .col-7 + .col-11, .col-8 + .col-11, .col-9 + .col-11, .col-10 + .col-11, .col-11 + .col-11, .col-12 + .col-11, .col-1 + .col-12, .col-2 + .col-12, .col-3 + .col-12, .col-4 + .col-12, .col-5 + .col-12, .col-6 + .col-12, .col-7 + .col-12, .col-8 + .col-12, .col-9 + .col-12, .col-10 + .col-12, .col-11 + .col-12, .col-12 + .col-12 {
+        margin-left: 1.10497%; } }
+    @media only screen and (max-width: 767px) {
+      .col-1 + .col-1, .col-2 + .col-1, .col-3 + .col-1, .col-4 + .col-1, .col-5 + .col-1, .col-6 + .col-1, .col-7 + .col-1, .col-8 + .col-1, .col-9 + .col-1, .col-10 + .col-1, .col-11 + .col-1, .col-12 + .col-1, .col-1 + .col-2, .col-2 + .col-2, .col-3 + .col-2, .col-4 + .col-2, .col-5 + .col-2, .col-6 + .col-2, .col-7 + .col-2, .col-8 + .col-2, .col-9 + .col-2, .col-10 + .col-2, .col-11 + .col-2, .col-12 + .col-2, .col-1 + .col-3, .col-2 + .col-3, .col-3 + .col-3, .col-4 + .col-3, .col-5 + .col-3, .col-6 + .col-3, .col-7 + .col-3, .col-8 + .col-3, .col-9 + .col-3, .col-10 + .col-3, .col-11 + .col-3, .col-12 + .col-3, .col-1 + .col-4, .col-2 + .col-4, .col-3 + .col-4, .col-4 + .col-4, .col-5 + .col-4, .col-6 + .col-4, .col-7 + .col-4, .col-8 + .col-4, .col-9 + .col-4, .col-10 + .col-4, .col-11 + .col-4, .col-12 + .col-4, .col-1 + .col-5, .col-2 + .col-5, .col-3 + .col-5, .col-4 + .col-5, .col-5 + .col-5, .col-6 + .col-5, .col-7 + .col-5, .col-8 + .col-5, .col-9 + .col-5, .col-10 + .col-5, .col-11 + .col-5, .col-12 + .col-5, .col-1 + .col-6, .col-2 + .col-6, .col-3 + .col-6, .col-4 + .col-6, .col-5 + .col-6, .col-6 + .col-6, .col-7 + .col-6, .col-8 + .col-6, .col-9 + .col-6, .col-10 + .col-6, .col-11 + .col-6, .col-12 + .col-6, .col-1 + .col-7, .col-2 + .col-7, .col-3 + .col-7, .col-4 + .col-7, .col-5 + .col-7, .col-6 + .col-7, .col-7 + .col-7, .col-8 + .col-7, .col-9 + .col-7, .col-10 + .col-7, .col-11 + .col-7, .col-12 + .col-7, .col-1 + .col-8, .col-2 + .col-8, .col-3 + .col-8, .col-4 + .col-8, .col-5 + .col-8, .col-6 + .col-8, .col-7 + .col-8, .col-8 + .col-8, .col-9 + .col-8, .col-10 + .col-8, .col-11 + .col-8, .col-12 + .col-8, .col-1 + .col-9, .col-2 + .col-9, .col-3 + .col-9, .col-4 + .col-9, .col-5 + .col-9, .col-6 + .col-9, .col-7 + .col-9, .col-8 + .col-9, .col-9 + .col-9, .col-10 + .col-9, .col-11 + .col-9, .col-12 + .col-9, .col-1 + .col-10, .col-2 + .col-10, .col-3 + .col-10, .col-4 + .col-10, .col-5 + .col-10, .col-6 + .col-10, .col-7 + .col-10, .col-8 + .col-10, .col-9 + .col-10, .col-10 + .col-10, .col-11 + .col-10, .col-12 + .col-10, .col-1 + .col-11, .col-2 + .col-11, .col-3 + .col-11, .col-4 + .col-11, .col-5 + .col-11, .col-6 + .col-11, .col-7 + .col-11, .col-8 + .col-11, .col-9 + .col-11, .col-10 + .col-11, .col-11 + .col-11, .col-12 + .col-11, .col-1 + .col-12, .col-2 + .col-12, .col-3 + .col-12, .col-4 + .col-12, .col-5 + .col-12, .col-6 + .col-12, .col-7 + .col-12, .col-8 + .col-12, .col-9 + .col-12, .col-10 + .col-12, .col-11 + .col-12, .col-12 + .col-12 {
+        margin-left: 1.73913%; } }
+  .col-1::after, .col-2::after, .col-3::after, .col-4::after, .col-5::after, .col-6::after, .col-7::after, .col-8::after, .col-9::after, .col-10::after, .col-11::after, .col-12::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .left.col-1, .left.col-2, .left.col-3, .left.col-4, .left.col-5, .left.col-6, .left.col-7, .left.col-8, .left.col-9, .left.col-10, .left.col-11, .left.col-12 {
+    float: left;
+    margin-left: 0; }
+  .right.col-1, .right.col-2, .right.col-3, .right.col-4, .right.col-5, .right.col-6, .right.col-7, .right.col-8, .right.col-9, .right.col-10, .right.col-11, .right.col-12 {
+    float: right; }
+  .col-1 img, .col-2 img, .col-3 img, .col-4 img, .col-5 img, .col-6 img, .col-7 img, .col-8 img, .col-9 img, .col-10 img, .col-11 img, .col-12 img {
+    float: left;
+    height: auto;
+    max-width: 100%;
+    min-height: 100%;
+    width: 100%; }
+
+.col-1 {
+  width: 7.70655%; }
+  @media only screen and (max-width: 1199px) {
+    .col-1 {
+      width: 7.55319%; } }
+  @media only screen and (max-width: 979px) {
+    .col-1 {
+      width: 7.32044%; } }
+  @media only screen and (max-width: 767px) {
+    .col-1 {
+      width: 6.73913%; } }
+
+.col-2 {
+  width: 16.09687%; }
+  @media only screen and (max-width: 1199px) {
+    .col-2 {
+      width: 15.95745%; } }
+  @media only screen and (max-width: 979px) {
+    .col-2 {
+      width: 15.74586%; } }
+  @media only screen and (max-width: 767px) {
+    .col-2 {
+      width: 15.21739%; } }
+
+.col-3 {
+  width: 24.48718%; }
+  @media only screen and (max-width: 1199px) {
+    .col-3 {
+      width: 24.3617%; } }
+  @media only screen and (max-width: 979px) {
+    .col-3 {
+      width: 24.17127%; } }
+  @media only screen and (max-width: 767px) {
+    .col-3 {
+      width: 23.69565%; } }
+
+.col-4 {
+  width: 32.87749%; }
+  @media only screen and (max-width: 1199px) {
+    .col-4 {
+      width: 32.76596%; } }
+  @media only screen and (max-width: 979px) {
+    .col-4 {
+      width: 32.59669%; } }
+  @media only screen and (max-width: 767px) {
+    .col-4 {
+      width: 32.17391%; } }
+
+.col-5 {
+  width: 41.26781%; }
+  @media only screen and (max-width: 1199px) {
+    .col-5 {
+      width: 41.17021%; } }
+  @media only screen and (max-width: 979px) {
+    .col-5 {
+      width: 41.0221%; } }
+  @media only screen and (max-width: 767px) {
+    .col-5 {
+      width: 40.65217%; } }
+
+.col-6 {
+  width: 49.65812%; }
+  @media only screen and (max-width: 1199px) {
+    .col-6 {
+      width: 49.57447%; } }
+  @media only screen and (max-width: 979px) {
+    .col-6 {
+      width: 49.44751%; } }
+  @media only screen and (max-width: 767px) {
+    .col-6 {
+      width: 49.13043%; } }
+
+.col-7 {
+  width: 58.04843%; }
+  @media only screen and (max-width: 1199px) {
+    .col-7 {
+      width: 57.97872%; } }
+  @media only screen and (max-width: 979px) {
+    .col-7 {
+      width: 57.87293%; } }
+  @media only screen and (max-width: 767px) {
+    .col-7 {
+      width: 57.6087%; } }
+
+.col-8 {
+  width: 66.43875%; }
+  @media only screen and (max-width: 1199px) {
+    .col-8 {
+      width: 66.38298%; } }
+  @media only screen and (max-width: 979px) {
+    .col-8 {
+      width: 66.29834%; } }
+  @media only screen and (max-width: 767px) {
+    .col-8 {
+      width: 66.08696%; } }
+
+.col-9 {
+  width: 74.82906%; }
+  @media only screen and (max-width: 1199px) {
+    .col-9 {
+      width: 74.78723%; } }
+  @media only screen and (max-width: 979px) {
+    .col-9 {
+      width: 74.72376%; } }
+  @media only screen and (max-width: 767px) {
+    .col-9 {
+      width: 74.56522%; } }
+
+.col-10 {
+  width: 83.21937%; }
+  @media only screen and (max-width: 1199px) {
+    .col-10 {
+      width: 83.19149%; } }
+  @media only screen and (max-width: 979px) {
+    .col-10 {
+      width: 83.14917%; } }
+  @media only screen and (max-width: 767px) {
+    .col-10 {
+      width: 83.04348%; } }
+
+.col-11 {
+  width: 91.60969%; }
+  @media only screen and (max-width: 1199px) {
+    .col-11 {
+      width: 91.59574%; } }
+  @media only screen and (max-width: 979px) {
+    .col-11 {
+      width: 91.57459%; } }
+  @media only screen and (max-width: 767px) {
+    .col-11 {
+      width: 91.52174%; } }
+
+.col-12 {
+  width: 100%; }
+  @media only screen and (max-width: 1199px) {
+    .col-12 {
+      width: 100%; } }
+  @media only screen and (max-width: 979px) {
+    .col-12 {
+      width: 100.0%; } }
+  @media only screen and (max-width: 767px) {
+    .col-12 {
+      width: 100%; } }
+
+.row-1 {
+  height: 96px; }
+  @media only screen and (max-width: 1199px) {
+    .row-1 {
+      height: 76px; } }
+  @media only screen and (max-width: 979px) {
+    .row-1 {
+      height: 56px; } }
+  @media only screen and (max-width: 767px) {
+    .row-1 {
+      height: auto; } }
+
+.row-2 {
+  height: 200px; }
+  @media only screen and (max-width: 1199px) {
+    .row-2 {
+      height: 160px; } }
+  @media only screen and (max-width: 979px) {
+    .row-2 {
+      height: 120px; } }
+  @media only screen and (max-width: 767px) {
+    .row-2 {
+      height: auto; } }
+
+.row-3 {
+  height: 304px; }
+  @media only screen and (max-width: 1199px) {
+    .row-3 {
+      height: 244px; } }
+  @media only screen and (max-width: 979px) {
+    .row-3 {
+      height: 184px; } }
+  @media only screen and (max-width: 767px) {
+    .row-3 {
+      height: auto; } }
+
+.row-4 {
+  height: 408px; }
+  @media only screen and (max-width: 1199px) {
+    .row-4 {
+      height: 328px; } }
+  @media only screen and (max-width: 979px) {
+    .row-4 {
+      height: 248px; } }
+  @media only screen and (max-width: 767px) {
+    .row-4 {
+      height: auto; } }
+
+.row-5 {
+  height: 512px; }
+  @media only screen and (max-width: 1199px) {
+    .row-5 {
+      height: 412px; } }
+  @media only screen and (max-width: 979px) {
+    .row-5 {
+      height: 312px; } }
+  @media only screen and (max-width: 767px) {
+    .row-5 {
+      height: auto; } }
+
+.row-6 {
+  height: 616px; }
+  @media only screen and (max-width: 1199px) {
+    .row-6 {
+      height: 496px; } }
+  @media only screen and (max-width: 979px) {
+    .row-6 {
+      height: 376px; } }
+  @media only screen and (max-width: 767px) {
+    .row-6 {
+      height: auto; } }
+
+#homepage-wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 8px 0;
+  width: 100%; }
+  @media only screen and (max-width: 1199px) {
+    #homepage-wrapper {
+      max-width: 940px; } }
+  @media only screen and (max-width: 979px) {
+    #homepage-wrapper {
+      max-width: 724px; } }
+  @media only screen and (max-width: 767px) {
+    #homepage-wrapper {
+      max-width: 100%; } }
+
+.content-row::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+/* =====================
+	 Variables 
+======================*/
+/* =====================
+	 Mixins 
+======================*/
+.photo-block .copy {
+  position: relative;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/* =====================
+	 Main styles 
+======================*/
+.span12 {
+  margin-left: 15px; }
+  @media only screen and (max-width: 1199px) {
+    .span12 {
+      margin-left: 10px; } }
+  @media only screen and (max-width: 979px) {
+    .span12 {
+      margin-left: 10px; } }
+
+html {
+  font-size: 100%; }
+  @media only screen and (max-width: 1199px) {
+    html {
+      font-size: 80%; } }
+  @media only screen and (max-width: 979px) {
+    html {
+      font-size: 62%; } }
+  @media only screen and (max-width: 767px) {
+    html {
+      font-size: 80%; } }
+
+#homepage-wrapper div {
+  box-sizing: border-box; }
+
+h1, h2, h3, p, a, span, button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper h1,
+#homepage-wrapper h2,
+#homepage-wrapper a,
+#homepage-wrapper button,
+#homepage-wrapper p,
+#homepage-wrapper span {
+  font-family: "Open Sans", Helvetica-Neue, ​ Arial, ​ sans-serif !important; }
+
+strong {
+  font-weight: 600; }
+
+img {
+  max-width: 100%; }
+
+a:link {
+  -webkit-tap-highlight-color: transparent; }
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none; }
+
+.cta {
+  position: relative;
+  display: inline-block;
+  font-size: 0.813rem;
+  font-weight: 600;
+  background: #fff;
+  color: #434343;
+  text-align: center;
+  padding: 6px 25px;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; }
+  .cta:hover, .cta :active {
+    background-color: #fff;
+    color: #434343; }
+  @media only screen and (max-width: 1199px) {
+    .cta {
+      padding: 3px 20px; } }
+  @media only screen and (max-width: 979px) {
+    .cta {
+      padding: 1px 15px; } }
+  .cta.fixed-width {
+    width: 60px; }
+    @media only screen and (max-width: 1199px) {
+      .cta.fixed-width {
+        width: 45px; } }
+    @media only screen and (max-width: 979px) {
+      .cta.fixed-width {
+        width: 35px; } }
+
+.cta.color {
+  color: #ffffff;
+  background-color: #7b7a58; }
+  .cta.color:hover {
+    background-color: #666549; }
+
+button.cta {
+  border: 0;
+  outline: 0; }
+
+/* =====================
+	 Specific styles 
+======================*/
+.photo-block {
+  display: block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  text-align: center; }
+  .photo-block img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1; }
+
+.photo-block .copy {
+  z-index: 5;
+  padding: 0 5%;
+  color: #fff; }
+  .photo-block .copy .item-title {
+    color: inherit;
+    font-size: 1.81rem;
+    text-transform: uppercase;
+    line-height: 1.24137931;
+    margin-bottom: 20px;
+    font-weight: 400; }
+    @media only screen and (max-width: 1199px) {
+      .photo-block .copy .item-title {
+        margin-bottom: 10px; } }
+  .photo-block .copy .item-intro {
+    color: inherit;
+    font-size: 1rem;
+    line-height: 130%;
+    margin-bottom: 20px;
+    margin-top: -10px; }
+    @media only screen and (max-width: 1199px) {
+      .photo-block .copy .item-intro {
+        margin-bottom: 10px; } }
+
+.photo-block .copy.extra-pad {
+  padding: 0 15%; }
+
+.photo-block .black-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 3;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out; }
+
+.photo-block:hover .black-hover {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.photo-block .iframe-wrapper {
+  height: 100%;
+  background: #000; }
+
+.photo-block .iframe-wrapper img {
+  cursor: pointer;
+  max-width: 100%;
+  height: 100%; }
+
+.photo-block .iframe-wrapper iframe {
+  min-height: 0;
+  border: 0; }
+
+.content-block {
+  position: relative;
+  background-color: #fff; }
+  .content-block img {
+    position: relative;
+    z-index: 1; }
+  .content-block .copy {
+    position: relative;
+    background-color: #fff;
+    color: #313131;
+    padding: 2.75% 5% 0;
+    display: inline-block;
+    text-align: center; }
+    @media only screen and (max-width: 979px) {
+      .content-block .copy {
+        padding-top: 0.2%; } }
+    .content-block .copy:after {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      z-index: 10;
+      pointer-events: none;
+      border-width: 15px;
+      margin-left: -15px;
+      border-bottom-color: #fff; }
+      @media only screen and (max-width: 979px) {
+        .content-block .copy:after {
+          border-width: 10px;
+          margin-left: -10px; } }
+    .content-block .copy .item-title {
+      color: #343434;
+      font-weight: bold;
+      font-family: "Open Sans", Helvetica-Neue, ​ Arial, ​ sans-serif !important;
+      font-size: 1.23rem;
+      line-height: 130%;
+      margin-bottom: 2%; }
+    .content-block .copy .item-intro {
+      font-weight: 400;
+      font-family: "Open Sans", Helvetica-Neue, ​ Arial, ​ sans-serif !important;
+      color: #868686;
+      font-size: 0.84rem;
+      line-height: 140%;
+      margin-bottom: 5.5%; }
+  .content-block .copy.lux {
+    width: 100%;
+    text-align: left; }
+    .content-block .copy.lux .adres {
+      font-weight: 400;
+      font-family: "Open Sans", Helvetica-Neue, ​ Arial, ​ sans-serif !important;
+      color: #868686;
+      font-size: 0.84rem;
+      line-height: 140%;
+      margin-bottom: 5.5%; }
+    .content-block .copy.lux .item-subtitle {
+      color: #868686;
+      font-weight: bold !important;
+      font-family: "Open Sans", Helvetica-Neue, ​ Arial, ​ sans-serif !important;
+      font-size: 0.84rem;
+      line-height: 130%;
+      margin-bottom: 2%; }
+
+.content-block .image-top {
+  width: 100%;
+  height: auto;
+  min-height: 0; }
+
+.content-block .image-side {
+  width: auto; }
+  @media only screen and (max-width: 1199px) {
+    .content-block .image-side {
+      width: 150px; } }
+  @media only screen and (max-width: 979px) {
+    .content-block .image-side {
+      width: 111px; } }
+
+.content-block .copy.side {
+  text-align: left;
+  width: 67%;
+  padding: 5% 3% 0 4.5%; }
+  @media only screen and (max-width: 979px) {
+    .content-block .copy.side {
+      padding-top: 4%; } }
+  .content-block .copy.side:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #ffffff;
+    z-index: 1;
+    left: -15px;
+    bottom: 27.5%; }
+    @media only screen and (max-width: 979px) {
+      .content-block .copy.side:after {
+        left: -10px; } }
+
+.icon-row {
+  position: relative;
+  background-color: #fff;
+  padding-top: 20px; }
+  .icon-row img {
+    position: relative;
+    z-index: 1; }
+  .icon-row .icon-row-item {
+    width: 20%;
+    float: left;
+    /* font */
+    text-align: center; }
+  @media only screen and (max-width: 1199px) {
+    .icon-row {
+      height: 100px; } }
+  @media only screen and (max-width: 979px) {
+    .icon-row {
+      height: 100px; } }
+
+.icon-row .icon-row-item > span.item1,
+.icon-row .icon-row-item a.item1 {
+  background-image: url("../images/icon_click_collect.png"); }
+
+.icon-row .icon-row-item > span.item2,
+.icon-row .icon-row-item a.item2 {
+  background-image: url("../images/icon_truck.png"); }
+
+.icon-row .icon-row-item > span.item3,
+.icon-row .icon-row-item a.item3 {
+  background-image: url("../images/icon_calendar.png"); }
+
+.icon-row .icon-row-item > span.item4,
+.icon-row .icon-row-item a.item4 {
+  background-image: url("../images/icon_karreke.png"); }
+
+.icon-row .icon-row-item > span.item5,
+.icon-row .icon-row-item a.item5 {
+  background-image: url("../images/icon_eco.png"); }
+
+.icon-row .icon-row-item > span,
+.icon-row .icon-row-item a {
+  height: 20px;
+  padding-top: 45px;
+  display: block;
+  color: #afafaf;
+  font-size: 0.75rem;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 0.7;
+  -moz-transition: opacity 0.15s ease-in-out;
+  -o-transition: opacity 0.15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out; }
+  @media only screen and (max-width: 1199px) {
+    .icon-row .icon-row-item > span,
+    .icon-row .icon-row-item a {
+      font-size: 0.8rem; } }
+  @media only screen and (max-width: 979px) {
+    .icon-row .icon-row-item > span,
+    .icon-row .icon-row-item a {
+      font-size: 1rem; } }
+
+.icon-row .icon-row-item > span.item1:hover,
+.icon-row .icon-row-item a.item1:hover,
+.icon-row .icon-row-item > span.item2:hover,
+.icon-row .icon-row-item a.item2:hover,
+.icon-row .icon-row-item > span.item3:hover,
+.icon-row .icon-row-item a.item3:hover,
+.icon-row .icon-row-item > span.item4:hover,
+.icon-row .icon-row-item a.item4:hover,
+.icon-row .icon-row-item > span.item5:hover,
+.icon-row .icon-row-item a.item5:hover {
+  opacity: 1; }
+
+.icon-row .icon-row-item > span:hover,
+.icon-row .icon-row-item a:hover {
+  color: #7b7a58; }
+
+/* ==============================
+	Lazy Load XT fade-in effect 
+===============================*/
+/*! Lazy Load XT v1.0.6 2014-11-19
+ * http://ressio.github.io/lazy-load-xt
+ * (C) 2014 RESS.io
+ * Licensed under MIT */
+.lazy-hidden {
+  opacity: 0; }
+
+.lazy-loaded {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1; }
+
+/* =====================
+	IE8 fix styles 
+======================*/
+@media \0screen {
+  .photo-block .copy {
+    top: 20%; }
+
+  .content-block .copy .item-title {
+    font-size: 20px; }
+  .content-block .copy .item-intro {
+    font-size: 13px; }
+
+  .content-block .copy.side:after {
+    display: none; } }
+/* ===============
+   SLIDER
+=============== */
+/* *********************************************************************************************************** */
+/* **                                                 SLIDER                                               ** */
+/* *********************************************************************************************************** */
+/***********************************************
+    General styles 
+***********************************************/
+#homepage-wrapper #xx_header {
+  padding-top: 0px; }
+
+#homepage-wrapper #xx_header .xx_slider {
+  position: relative;
+  -moz-box-shadow: 0px 0px 12px #dcdbda;
+  -webkit-box-shadow: 0px 0px 12px #dcdbda;
+  box-shadow: 0px 0px 12px #dcdbda; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager {
+  /* box */
+  margin-top: 20px;
+  /* font */
+  text-align: center; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  margin-left: 5px; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item {
+  *display: inline; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item:first-child {
+  margin-left: 0; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a {
+  /* box */
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: none;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  /* background */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #3f3f3f; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a.active {
+  background: #3f3f3f; }
+
+#homepage-wrapper #xx_header .xx_slider ul {
+  /* box */
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none; }
+
+#homepage-wrapper #xx_header .xx_slider ul li {
+  /* position */
+  position: relative;
+  /* box */ }
+
+#homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper img {
+  width: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6); }
+
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider {
+    margin-top: 5%; }
+
+  /******* MOBILE HEADER **********/
+  #homepage-wrapper #xx_header_mobile {
+    display: block; }
+
+  /****** Mobile Homepage *******/
+  #homepage-wrapper #xx_footer,
+  #homepage-wrapper #xx_content {
+    display: none; }
+
+  #homepage-wrapper #xx_header {
+    display: block;
+    width: 302px;
+    height: 160px;
+    margin: 0 auto 4%; } }
+/* *********************************************************************************************************** */
+/* **                                            Slider TABS                                                ** */
+/* *********************************************************************************************************** */
+/***********************************************
+    General styles 
+***********************************************/
+#homepage-wrapper #xx_header .xx_slider ul li {
+  height: 410px; }
+
+#homepage-wrapper #xx_header .bx-wrapper {
+  margin: 0 auto; }
+
+#homepage-wrapper #xx_header .bx-viewport {
+  border: 0;
+  box-shadow: none;
+  left: 0; }
+
+a:link {
+  -webkit-tap-highlight-color: transparent; }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 99px;
+  background-color: #fafafa;
+  padding-left: 7%;
+  padding-right: 3%;
+  margin-bottom: 1.6%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2n) {
+    background-color: #f2f2f2; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:last-child {
+    margin-bottom: 0px; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active, #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active:hover {
+    background-color: #434343;
+    border-right: 4px solid #f98319; }
+    #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active .tab-content .tab-title, #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active:hover .tab-content .tab-title {
+      color: #ffffff;
+      text-shadow: 1px 2px 1px rbga(0, 0, 0, 0.5); }
+    #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active .tab-content .tab-intro, #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active:hover .tab-content .tab-intro {
+      color: #ffffff; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:hover {
+    background-color: #a2a2a2; }
+    #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:hover .tab-content .tab-title, #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:hover .tab-content .tab-intro {
+      color: #ffffff; }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab {
+  background: #D0222B; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab .tab-content .tab-intro,
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab .tab-content .tab-title {
+    color: #fff; }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab.active,
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab.active:hover {
+  background-color: #434343;
+  border-right: 4px solid #f98319; }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+  content: "";
+  background: url("../images/arrow-tab.png") no-repeat center center;
+  width: 25px;
+  height: 99px;
+  position: relative;
+  float: left;
+  margin-left: -45px;
+  opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out; }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active:before {
+  opacity: 1; }
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: none; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title, #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: inherit; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    margin-bottom: 2%;
+    color: #5E5E5E; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    font-weight: 400;
+    font-size: 12px;
+    color: #717171;
+    margin-bottom: 0; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-controls-direction {
+  display: none; }
+
+#homepage-wrapper #xx_header .xx_slider ul li a.overall-cta {
+  display: block;
+  width: 74%;
+  height: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li div a {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-size: 13px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  line-height: 37px;
+  background-color: #89a058;
+  height: 37px;
+  padding: 0 10px;
+  padding-right: 0;
+  margin-top: 10px; }
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+    #homepage-wrapper #xx_header .xx_slider ul li div a {
+      text-align: center;
+      padding-left: 0;
+      font-size: 11px;
+      height: 30px;
+      line-height: 30px; } }
+  @media only screen and (max-width: 768px) {
+    #homepage-wrapper #xx_header .xx_slider ul li div a {
+      font-size: 10px;
+      height: 25px;
+      line-height: 25px; } }
+  #homepage-wrapper #xx_header .xx_slider ul li div a:hover {
+    text-decoration: none;
+    background-color: #768a4c; }
+  #homepage-wrapper #xx_header .xx_slider ul li div a:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+    /*    @media only screen and (min-width: 768px) and (max-width: 979px){
+          display: none;
+        }*/ }
+    @media only screen and (max-width: 768px) {
+      #homepage-wrapper #xx_header .xx_slider ul li div a:after {
+        height: 25px;
+        width: 25px;
+        background-size: 8px 8px; } }
+
+@media \0screen {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+    top: 24%; } }
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 311px;
+    background-size: 940px 311px !important; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager {
+    width: 26%; }
+    #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+      height: 75px;
+      padding-left: 6%;
+      margin-bottom: 1.45%; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    width: 24px;
+    height: 75px;
+    margin-left: -36px;
+    background-size: 80%; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title {
+    font-size: 13px;
+    margin-bottom: 2px; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    font-size: 11px; } }
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+    margin-bottom: 1.6%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 240px;
+    background-size: 724px 240px !important; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager {
+    width: 26%; }
+    #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+      height: 58px; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    width: 20px;
+    height: 58px;
+    margin-left: -29px;
+    background-size: 78%; }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title {
+    font-size: 11px;
+    margin-top: 5px;
+    line-height: 100%;
+    margin-bottom: 3px; }
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    display: none; } }
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+    margin-bottom: 1.51%; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 160px;
+    background-size: 302px 160px !important; }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction {
+    display: block; }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a {
+    position: absolute;
+    top: 0;
+    outline: 0;
+    width: 23px;
+    height: 95%;
+    margin-top: 3px;
+    text-indent: -9999px;
+    z-index: 15; }
+    #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
+      left: 4px;
+      background: url(../images/slider-controls.png) no-repeat 0px center; }
+    #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+      right: 4px;
+      background: url(../images/slider-controls.png) no-repeat -23px center; } }
+@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+    background: url("../images/slider-controls@2x.png") no-repeat;
+    background-size: 44px 23px; }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
+    background-position: 0px center; }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+    background-position: -23px center; } }
+/* *********************************************************************************************************** */
+/*                                            SLIDER GOPRO NATURE                                           ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award {
+  background: url("../images/bg-gopro-nature-award.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content {
+  position: absolute;
+  width: 75%;
+  top: 23%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content h2, #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-content {
+    font-size: 37px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .prize {
+    font-size: 20px;
+    margin-top: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta {
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: #60782e;
+  color: #fff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 2% auto 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta:hover {
+    background: #526726; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-content {
+    font-size: 28px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-title {
+    font-size: 42px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta {
+    width: 24%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content {
+    width: 74%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-title {
+      font-size: 33px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-content {
+      font-size: 22px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta:after {
+        display: block;
+        font-size: 8px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award {
+    background: url("../images/bg-gopro-nature-award-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content {
+    top: 26%;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-title {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .prize {
+      font-size: 10px;
+      margin: 0;
+      margin-top: -7px;
+      color: #fff; }
+    #homepage-wrapper #xx_header .xx_slider ul li.gopro-nature-award .content .xx_cta {
+      width: 40%;
+      font-size: 8px; } }
+/* *********************************************************************************************************** */
+/*                                                SLIDER CAMPING ACTIE                                      ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+  background: url("../images/bg-campingactie.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+  position: absolute;
+  width: 30%;
+  top: 12%;
+  left: 2.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content h2, #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+  color: #fff;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+    margin-bottom: 6%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+    text-align: left;
+    font-size: 16px;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+    font-size: 10px;
+    color: inherit;
+    line-height: 130%;
+    margin-top: 12%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+  font-weight: 600;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 4%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:hover {
+    background: #fff;
+    color: #898234; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+  position: absolute;
+  bottom: 4%;
+  left: 57.5%;
+  width: 220px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
+    display: inline-block;
+    vertical-align: top !important;
+    background: none;
+    width: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:hover {
+      opacity: 1; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:after {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta img {
+      display: inline-block;
+      max-width: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+  margin-top: 4%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .legal {
+  margin-top: 10%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    top: 9%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+      width: 200px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+      font-size: 13px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+      width: 55%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+      margin-top: 5%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    left: 53%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+    margin-top: 0; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .legal {
+    margin-top: 5%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    top: 8%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+      width: 145px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+      font-size: 10px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+      font-size: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    left: 51%;
+    bottom: 5%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
+    width: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:nth-of-type(3) {
+      width: 15px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+    margin-top: 0; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+    background: url("../images/bg-campingactie-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    width: 80%;
+    left: 11%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+      width: 85px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+      font-size: 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+      margin-top: 1%;
+      font-size: 6px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+      border-width: 1px;
+      text-align: center;
+      padding-left: 0;
+      width: 44%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+        display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .main-content,
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .main-content {
+    margin-bottom: 4%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .xx_cta {
+    margin-bottom: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal,
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .legal {
+    margin-top: 2%; } }
+/* *********************************************************************************************************** */
+/* **                                         SOLDEN METRO JUL 15 (LUX)                                     ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.solden {
+  background: url("../images/bg-solden-jul15.jpg") no-repeat;
+  overflow: hidden; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.lux {
+    background: url("../images/bg-solden-jul15-lux.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  z-index: 2;
+  /* background */
+  background: url("../images/bg-presolden.jpg") repeat-x;
+  /* box */
+  width: 26.3%;
+  height: 410px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 9px 19px 0;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 0px 15px black;
+  -moz-box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px black; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content h2, #homepage-wrapper #xx_header .xx_slider ul li.solden .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto 18px; }
+#homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
+  /* position */
+  position: relative;
+  z-index: 2;
+  /* font */
+  color: #ffffff;
+  font-size: 67px;
+  line-height: 67px;
+  font-weight: 600;
+  text-shadow: 0px 2px 1px #000000;
+  text-transform: uppercase; }
+#homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
+  /* position */
+  position: relative;
+  z-index: 2;
+  /* font */
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 137%;
+  margin-bottom: 10px; }
+#homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 10px;
+  margin-bottom: 0px;
+  bottom: 4px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
+  width: 75%;
+  background-color: #4590bd;
+  font-weight: 600;
+  display: inline-block; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:hover {
+    background-color: #3c84af; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content,
+#homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content,
+#homepage-wrapper #xx_header .xx_slider ul li.solden.en .content {
+  width: 23.3%;
+  left: 7%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 60px;
+    line-height: 66px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .xx_cta {
+    width: 95%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+  font-size: 63px;
+  line-height: 66px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+  font-size: 81px;
+  line-height: 81px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+    padding-top: 13px;
+    padding-right: 10px;
+    background-position: 0px -25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
+      width: 140px;
+      margin-bottom: 20px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
+      font-size: 52px;
+      line-height: 52px;
+      margin-bottom: 5px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
+      font-size: 11px;
+      line-height: 130%;
+      margin-bottom: 6px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
+      width: 90%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
+      bottom: 101px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 46px;
+    line-height: 45px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .xx_cta {
+    width: 90%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+    font-size: 49px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 63px;
+    line-height: 50px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+    width: 31%;
+    padding-top: 8px;
+    background-position: 0px -28px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
+      font-size: 47px;
+      margin-bottom: 24px;
+      line-height: 60px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      margin-bottom: 3px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
+      width: 90%;
+      text-align: left;
+      padding-left: 4%;
+      margin-top: 1.5%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
+        display: block;
+        height: 30px;
+        background-size: 9px 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
+      bottom: 172px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 33px;
+    line-height: 59px;
+    margin-bottom: 30px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .xx_cta {
+    margin-top: 5.5%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+    font-size: 36px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 47px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.solden {
+    background: url("../images/bg-solden-jul15-mobile@2x.jpg") no-repeat; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.lux {
+      background: url("../images/bg-solden-jul15-lux-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+    width: 90%;
+    padding-top: 0;
+    background: none;
+    height: 101px;
+    top: 41%;
+    left: 6%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
+      font-size: 16px;
+      margin-bottom: 2px;
+      line-height: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
+      font-size: 9px;
+      width: 52%;
+      height: 25px;
+      line-height: 25px;
+      margin-top: 2px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
+        font-size: 8px;
+        padding-right: 3px;
+        width: auto; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
+      font-size: 6px;
+      bottom: 3px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content.mobile {
+    display: block;
+    font-size: 8px;
+    line-height: 130%;
+    margin-bottom: 3px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.lux .content .main-content {
+    display: block; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 14px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content {
+    width: 90%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .main-title,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+      font-size: 29px;
+      line-height: 45px;
+      margin-bottom: 0px;
+      text-align: center; }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content .xx_cta,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .xx_cta,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .xx_cta {
+      margin-top: 1.5%;
+      width: 26%; } }
+/* *********************************************************************************************************** */
+/*                                                SLIDER FESTIVAL                                           ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.festival {
+  background: url("../images/bg-festival.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+  position: absolute;
+  width: 35%;
+  top: 72%;
+  left: 6%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content h2, #homepage-wrapper #xx_header .xx_slider ul li.festival .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+  color: #fff;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-title {
+    display: none; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
+    font-size: 16px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
+  font-weight: 600;
+  width: 40%;
+  text-align: left;
+  margin-top: 3%;
+  background: #f5840c;
+  color: #fff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:hover {
+    background: #de7a10; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content .main-content {
+  font-size: 15px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
+    font-size: 13px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
+    width: 50%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content .main-content {
+    font-size: 12px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+    top: 70%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
+      font-size: 10px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content .main-content {
+    font-size: 9px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festival {
+    background: url("../images/bg-festival-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+    top: 56%;
+    width: 52%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
+      font-size: 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
+      width: 60%;
+      font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content .main-content {
+    font-size: 8px; } }
+/* *********************************************************************************************************** */
+/*                                               SLIDER BAY & BEACH                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl {
+  background: url("../images/bg-baybeach-xl.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content h2, #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
+    font-size: 30px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: #3671ea;
+  color: #fff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:hover {
+    background: #2e63cf; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
+    font-size: 23px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
+    font-size: 35px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+    width: 24%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+    width: 74%;
+    top: 27%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
+      font-size: 29px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+        display: block;
+        font-size: 8px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl {
+    background: url("../images/bg-baybeach-xl-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+    top: 26%;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+      width: 40%;
+      font-size: 8px; } }

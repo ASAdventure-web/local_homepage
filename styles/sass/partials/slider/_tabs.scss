@@ -1,0 +1,402 @@
+
+/* *********************************************************************************************************** */
+/* **                                            Slider TABS                                                ** */
+/* *********************************************************************************************************** */
+
+/***********************************************
+    General styles 
+***********************************************/
+
+#homepage-wrapper #xx_header .xx_slider ul li {
+  height: 410px;
+}
+
+//remove basic styling 
+#homepage-wrapper #xx_header .bx-wrapper{
+  margin: 0 auto;
+}
+
+#homepage-wrapper #xx_header .bx-viewport{
+  border: 0;
+  box-shadow: none;
+  left: 0;
+}
+
+//remove tap highlight on ios
+a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
+//
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(255,255,255, 0.6);
+}
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+  	@include box-sizing(border-box);
+  	
+  	display: block;
+  	width: 100%;
+  	height: 99px;
+  	background-color: #fafafa;
+  	padding-left: 7%;
+    padding-right: 3%;
+  	margin-bottom: 1.6%;
+
+  	font-family: 'Open Sans', sans-serif;
+
+  	//no blurr with vertical centering (translate on child)
+  	-webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    @include transition(all 0.35s ease-in-out);
+
+  	&:nth-child(2n) {
+  		background-color: #f2f2f2;
+  	}
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+  	&.active, &.active:hover {
+  		background-color: #434343;
+  		border-right: 4px solid #f98319;
+
+  		.tab-content .tab-title {
+  			color: #ffffff;
+  			text-shadow: 1px 2px 1px rbga(0,0,0, 0.5);
+  		}
+
+  		.tab-content .tab-intro {
+  			color: #ffffff;
+  		}
+  	}
+
+  	&:hover {
+  		background-color: #a2a2a2;
+
+  		.tab-content .tab-title, .tab-content .tab-intro {
+  			color: #ffffff;
+  		}
+  	}
+}
+
+// COLORED TAB
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab {
+  background: #D0222B;
+  
+  .tab-content .tab-intro,
+  .tab-content .tab-title {
+    color: #fff;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab.active,
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2).colored-tab.active:hover {
+  background-color: #434343;
+  border-right: 4px solid #f98319;
+}
+// end colored tab
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+  content: "";
+  background: url('../images/arrow-tab.png') no-repeat center center;
+  width: 25px;
+  height: 99px;
+  position: relative;
+  float: left;
+  margin-left: -45px;
+
+  opacity: 0;
+  @include transition(opacity 0.35s ease-in-out);
+}
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active:before {
+    opacity: 1;
+}
+
+
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+  	position: relative;
+  	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+
+  	background: none;
+
+  	.tab-title, .tab-intro {
+  		-webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    font-family: inherit;
+  	}
+
+	.tab-title {
+  		font-weight: 600;
+  		font-size: 14px;
+		  line-height: 100%;
+      margin-bottom: 2%;
+		  color: #5E5E5E;
+  	}
+
+  	.tab-intro {
+  		font-weight: 400;
+  		font-size: 12px;
+  		color: #717171;
+  		margin-bottom: 0;
+  	}
+}
+
+#homepage-wrapper #xx_header .xx_slider .bx-controls-direction {
+    display: none;
+}
+
+//overall CTA
+#homepage-wrapper #xx_header .xx_slider ul li a.overall-cta{
+  display: block;
+  width: 74%;
+  height: 100%;
+}
+
+//Buttons 
+#homepage-wrapper #xx_header .xx_slider ul li div a{
+  width: 100%;
+
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-size: 13px;
+
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  line-height: 37px;
+  background-color: #89a058;
+  height: 37px;
+  padding: 0 10px;
+  padding-right: 0;
+  margin-top: 10px;
+
+  @media only screen and (min-width: 768px) and (max-width: 979px){
+    text-align: center;
+    padding-left: 0;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 10px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: #768a4c;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+
+/*    @media only screen and (min-width: 768px) and (max-width: 979px){
+      display: none;
+    }*/
+
+    @media only screen and (max-width: 768px) {
+      height: 25px;
+      width: 25px;
+      background-size: 8px 8px;
+    }
+  }
+}
+
+// IE8 fix 
+@media \0screen {
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    display: none;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+    top: 24%;
+  }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 311px;
+    background-size: 940px 311px !important;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager{
+
+    width: 26%;
+
+    .tab {
+      height: 75px;
+      padding-left: 6%;
+      margin-bottom: 1.45%;
+    } 
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    width: 24px;
+    height: 75px;
+    margin-left: -36px;
+    background-size: 80%;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+    .tab-title {
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    .tab-intro {
+      font-size: 11px;
+    }
+  }
+  
+}
+
+@media only screen and (max-device-width : 1024px) and (orientation : landscape) {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+    margin-bottom: 1.6%;
+  }     
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 240px;
+    background-size: 724px 240px !important;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager{
+
+    width: 26%;
+
+    .tab {
+      height: 58px;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    width: 20px;
+    height: 58px;
+    margin-left: -29px;
+    background-size: 78%;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+    .tab-title {
+      font-size: 11px;
+      margin-top: 5px;
+      line-height: 100%;
+      margin-bottom: 3px;
+    }
+    .tab-intro {
+      display: none;
+    }
+  }
+
+}
+
+@media only screen and (max-device-width : 1024px) and (orientation : portrait) {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+    margin-bottom: 1.51%;
+  }     
+}
+
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager {
+    display: none;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 160px;
+    background-size: 302px 160px !important;
+  }
+
+  //PREV AND NEX CONTROLS
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction {
+    display: block;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a {
+    position: absolute;
+    top: 0;
+    outline: 0;
+    width: 23px;
+    height: 95%;
+    margin-top: 3px;
+    text-indent: -9999px;
+    z-index: 15;
+    
+    &.bx-prev {
+      left: 4px;
+      background: url(../images/slider-controls.png) no-repeat 0px center;
+    }
+
+    &.bx-next {
+      right: 4px;
+      background: url(../images/slider-controls.png) no-repeat -23px center;
+    }
+  }
+}
+
+@media
+only screen and (                     max-width: 1200px),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+    background: url('../images/slider-controls@2x.png') no-repeat;
+    background-size: 44px 23px; //verleden: 66px 34px;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
+    background-position: 0px center;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+    background-position: -23px center;
+  }
+
+}
+
+

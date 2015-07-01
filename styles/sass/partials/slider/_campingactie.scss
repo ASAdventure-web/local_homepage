@@ -1,0 +1,295 @@
+
+/* *********************************************************************************************************** */
+/*                                                SLIDER CAMPING ACTIE                                      ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+  background: url('../images/bg-campingactie.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+  position: absolute;
+  width: 30%;
+  top: 12%;
+  left: 2.5%;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+  color: #fff;
+  text-align: left;
+
+  .main-image {
+    margin-bottom: 6%;
+  }
+
+  .main-content {
+    text-align: left;
+    font-size: 16px;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%;
+  }
+
+  .legal {
+    font-size: 10px;
+    color: inherit;
+    line-height: 130%;
+    margin-top: 12%;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta { 
+  font-weight: 600;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 4%;
+
+  &:hover {
+    background: #fff;
+    color: #898234;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+  position: absolute;
+  bottom: 4%;
+  left: 57.5%;
+  width: 220px;
+
+  .icon-cta {
+    display: inline-block;
+    vertical-align: top !important;
+    background: none;
+    width: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    margin-left: 5%;
+
+    opacity: 0.6;
+
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:after {
+      display: none;
+    }
+
+    img {
+      display: inline-block;
+      max-width: 100%;
+    }
+  }
+}
+
+// FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+    margin-top: 4%;
+}
+
+// EN FIX
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .legal {
+    margin-top: 10%;
+}
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    top: 9%;
+
+    .main-image {
+      width: 200px;
+    }
+
+    .main-content {
+      font-size: 13px;
+    }
+
+    .xx_cta {
+      width: 55%;
+    }
+
+    .legal {
+      margin-top: 5%;
+    }
+
+    
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    left: 53%;
+  }
+
+  // FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+      margin-top: 0;
+  }
+
+  // EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content .legal {
+      margin-top: 5%;
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    top: 8%;
+
+    .main-image {
+      width: 145px;
+    }
+
+    .main-content {
+      font-size: 10px;
+    }
+
+    .legal {
+      font-size: 8px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    left: 51%;
+    bottom: 5%;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
+    width: 25px;
+
+    &:nth-of-type(3) {
+      width: 15px;
+    }
+  }
+
+  // FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+      margin-top: 0;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+    background: url('../images/bg-campingactie-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    width: 80%;
+    left: 11%;
+
+    .main-image {
+      width: 85px;
+    }
+
+    .main-content {
+      font-size: 9px;
+    }
+
+    .legal {
+      margin-top: 1%;
+      font-size: 6px;
+    }
+
+    .xx_cta {
+      border-width: 1px;
+      text-align: center;
+      padding-left: 0;
+      width: 44%;
+
+      &:after {
+        display: none;
+      }
+    }
+    
+  }
+
+   #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    display: none;
+  }
+
+  // FR FIX ENFIX
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.en_fix .content  {
+
+    .main-content {
+      margin-bottom: 4%;
+    }
+     .xx_cta {
+      margin-bottom: 0;
+     }
+
+      .legal {
+        margin-top: 2%;
+      }
+  }
+
+
+}
+
+

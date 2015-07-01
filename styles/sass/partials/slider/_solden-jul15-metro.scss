@@ -1,0 +1,357 @@
+
+/* *********************************************************************************************************** */
+/* **                                         SOLDEN METRO JUL 15 (LUX)                                     ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden {
+  background: url('../images/bg-solden-jul15.jpg') no-repeat;
+  overflow: hidden;
+
+  &.lux {
+    background: url('../images/bg-solden-jul15-lux.jpg') no-repeat;
+  }
+}
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+    z-index: 2;
+    /* background */
+    background: url('../images/bg-presolden.jpg') repeat-x;
+    /* box */
+    width: 26.3%;
+    height: 410px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    padding: 9px 19px 0;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 15px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 15px rgba(0, 0, 0, 1);
+
+    h2, span {
+      -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+
+    img {
+      position: relative;
+      z-index: 2;
+      margin: 0 auto 18px;
+    }
+    
+    .main-title {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 67px;
+      line-height: 67px;
+      font-weight: 600;
+      text-shadow: 0px 2px 1px #000000;
+      text-transform: uppercase;
+    }
+
+    .main-content {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 137%;
+      margin-bottom: 10px;
+    }
+
+    .footnote {
+      position: absolute;
+      z-index: 2;
+      color: #ffffff;
+      font-size: 10px;
+      margin-bottom: 0px;
+      bottom: 4px;
+    }
+  }
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta { 
+    width: 75%;
+    background-color: #4590bd ;
+    font-weight: 600;
+    display: inline-block;
+
+    &:hover {
+      background-color: #3c84af;
+    }
+  }
+
+
+  //NL & FR & EN
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content {
+     width: 23.3%;
+     left: 7%;
+
+    .main-title {
+      font-size: 60px;
+      line-height: 66px;
+    }
+
+    .xx_cta {
+      width: 95%;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+    font-size: 63px;
+    line-height: 66px;
+  }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 81px;
+    line-height: 81px;
+  }
+
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 1199px) {
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+      padding-top: 13px;
+      padding-right: 10px;
+      background-position: 0px -25px;
+
+      img {
+        width: 140px;
+        margin-bottom: 20px;
+      }
+      
+      .main-title {
+        font-size: 52px;
+        line-height: 52px;
+        margin-bottom: 5px;
+      }
+
+      .main-content {
+        font-size: 11px;
+        line-height: 130%;
+        margin-bottom: 6px;
+      }
+
+      .xx_cta {
+        width: 90%;
+      }
+
+      .footnote {
+        bottom: 101px;
+      }
+    }
+
+    //NL & FR & EN
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content, 
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content {
+
+      .main-title {
+        font-size: 46px;
+        line-height: 45px;
+      }
+
+      .xx_cta {
+        width: 90%;
+      }
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+      font-size: 49px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+      font-size: 63px;
+      line-height: 50px;
+    }
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 979px) {
+
+  	 #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+      width: 31%;
+      padding-top: 8px;
+      background-position: 0px -28px;
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 47px;
+        margin-bottom: 24px;
+        line-height: 60px;
+      }
+
+      .main-content {
+        font-size: 10px;
+        line-height: 130%;
+        margin-bottom: 3px;
+      }
+
+      .xx_cta {
+        width: 90%;
+        text-align: left;
+        padding-left: 4%;
+        margin-top: 1.5%;
+
+        &:after {
+          display: block;
+          height: 30px;
+          background-size: 9px 9px;
+        }
+      }
+
+      .footnote {
+        bottom: 172px;
+      }
+    }
+
+    //NL & FR & EN
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content {
+
+      .main-title {
+          font-size: 33px;
+        line-height: 59px;
+        margin-bottom: 30px;
+      }
+
+      .xx_cta {
+        margin-top: 5.5%;
+      }
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+      font-size: 36px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+      font-size: 47px;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) { 
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
+      height: 25px;
+    }
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 767px) {
+
+  	#homepage-wrapper #xx_header .xx_slider ul li.solden {
+      background: url('../images/bg-solden-jul15-mobile@2x.jpg') no-repeat;
+
+      &.lux {
+        background: url('../images/bg-solden-jul15-lux-mobile@2x.jpg') no-repeat;
+      }
+    }
+
+     #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+      width: 90%;
+      padding-top:0;
+      background: none;
+      height: 101px;
+      top: 41%;
+      left: 6%;
+
+       -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 16px;
+        margin-bottom: 2px;
+        line-height: 19px;
+      }
+
+      .main-content {
+        display: none;
+      }
+
+      .xx_cta{
+        font-size: 9px;
+        width: 52%;
+         height: 25px;
+        line-height: 25px;
+        margin-top: 2px;
+
+        &:after {
+            font-size: 8px;
+  padding-right: 3px;
+  width: auto;
+        }
+      }
+
+      .footnote {
+        font-size: 6px;
+        bottom: 3px;
+      }
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content.mobile {
+      display: block;
+      font-size: 8px;
+        line-height: 130%;
+        margin-bottom: 3px;
+    }
+
+    //LUX
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.lux .content .main-content {
+      display: block;
+    }
+
+    //EN
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+     font-size: 14px;
+    }
+
+    //NL
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.nl .content,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content,
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content {
+      width: 90%;
+      .main-title {
+            font-size: 29px;
+            line-height: 45px;
+            margin-bottom: 0px;
+            text-align: center
+      }
+
+      .xx_cta {
+        margin-top: 1.5%;
+          width: 26%;
+      }
+    }
+
+
+  }
+
+

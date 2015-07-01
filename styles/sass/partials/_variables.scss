@@ -1,0 +1,58 @@
+// VARIABLES
+
+// WIDTHS
+$desktop-max-width: 1170px;
+$tablet-landscape-max-width: 940px;
+$tablet-portrait-max-width: 724px;
+$mobile-max-width: 460px;
+
+// GRID INFO
+$num-cols: 12;
+$num-gutters: $num-cols - 1;
+$gutter-width: 8px;
+
+// MEDIA GUTTER WIDTHS
+$desktop-gutter-width-perc: percentage($gutter-width/$desktop-max-width);
+$tablet-landscape-gutter-width-perc: percentage($gutter-width/$tablet-landscape-max-width);
+$tablet-portrait-gutter-width-perc: percentage($gutter-width/$tablet-portrait-max-width);
+$mobile-gutter-width-perc: percentage($gutter-width/$mobile-max-width);
+
+// MEDIA COLUMN WIDTHS
+$desktop-col-width: percentage((($desktop-max-width - ($num-gutters * $gutter-width)) / $num-cols) / $desktop-max-width);
+$tablet-landscape-col-width: percentage((($tablet-landscape-max-width - ($num-gutters * $gutter-width)) / $num-cols) / $tablet-landscape-max-width);
+$tablet-portrait-col-width: percentage((($tablet-portrait-max-width - ($num-gutters * $gutter-width)) / $num-cols) / $tablet-portrait-max-width);
+$mobile-col-width: percentage((($mobile-max-width - ($num-gutters * $gutter-width)) / $num-cols) / $mobile-max-width);
+
+// HEIGHT
+$desktop-row-height: 96px;
+$tablet-landscape-row-height: 76px;
+$tablet-portrait-row-height: 56px;
+$mobile-row-height: 96px;
+$max-rows: 6;
+
+// MIXINS
+
+// BREAKPOINTS
+@mixin desktop{
+	@media only screen and (min-width: 1200px){
+		@content;
+	}
+}
+
+@mixin tablet-landscape{
+	@media only screen and (max-width: 1199px){
+		@content;
+	}
+}
+
+@mixin tablet-portrait{
+	@media only screen and (max-width: 979px){
+		@content;
+	}
+}
+
+@mixin mobile{
+	@media only screen and (max-width: 767px){
+		@content;
+	}
+}

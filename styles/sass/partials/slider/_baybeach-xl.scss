@@ -1,0 +1,182 @@
+
+/* *********************************************************************************************************** */
+/*                                               SLIDER BAY & BEACH                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl {
+  background: url('../images/bg-baybeach-xl.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .main-content {
+    font-size: 30px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta { 
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: #3671ea;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 0 auto;
+
+  &:hover {
+    background: #2e63cf;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+
+    .main-content {
+      font-size: 23px;
+    }
+
+    .main-title {
+      font-size: 35px;
+    }
+
+    .xx_cta {
+      width: 24%;
+    }
+    
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+    width: 74%;
+    top: 27%;
+
+    .main-title {
+      font-size: 29px;
+    }
+
+    .main-content {
+      font-size: 19px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl {
+    background: url('../images/bg-baybeach-xl-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+    top: 26%;
+    width: 100%;
+
+    .main-title {
+      font-size: 19px;
+    }
+
+    .main-content {
+      font-size: 15px;
+      padding: 0 10%;
+    }
+
+    .xx_cta {
+      width: 40%;
+      font-size: 8px;
+    }
+    
+  }
+
+
+
+}
+
+

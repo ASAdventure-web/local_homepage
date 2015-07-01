@@ -1,0 +1,180 @@
+
+/* *********************************************************************************************************** */
+/*                                                SLIDER FESTIVAL                                           ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival {
+  background: url('../images/bg-festival.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+  position: absolute;
+  width: 35%;
+  top: 72%;
+  left: 6%;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+  color: #fff;
+  text-align: left;
+
+  .main-title {
+    display: none;
+  }
+
+  .main-content {
+    font-size: 16px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta { 
+  font-weight: 600;
+  width: 40%;
+  text-align: left;
+  margin-top: 3%;
+  background: #f5840c;
+  color: #fff;
+
+  &:hover {
+    background: #de7a10;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+//FR
+#homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content {
+  .main-content {
+    font-size: 15px;
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+
+    .main-content {
+      font-size: 13px;
+    }
+
+    .xx_cta {
+      width: 50%;
+    }
+    
+  }
+
+  //FR
+  #homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content {
+    .main-content {
+      font-size: 12px;
+    }
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+    top: 70%;
+
+    .main-content {
+      font-size: 10px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+  //FR
+  #homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content {
+    .main-content {
+      font-size: 9px;
+    }
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival {
+    background: url('../images/bg-festival-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+    top: 56%;
+    width: 52%;
+
+    .main-content {
+      font-size: 9px;
+    }
+
+    .xx_cta {
+      width: 60%;
+      font-size: 8px;
+    }
+    
+  }
+
+  //FR
+  #homepage-wrapper #xx_header .xx_slider ul li.festival.fr .content {
+    .main-content {
+      font-size: 8px;
+    }
+  }
+
+}
+
+
